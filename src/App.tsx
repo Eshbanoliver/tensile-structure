@@ -49,13 +49,26 @@ export const AppContent: React.FC = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us.htm" element={<AboutPage />} />
+          <Route path="/about-us" element={<AboutPage />} />
+          
           <Route path="/tensile-structure.htm" element={<ProductsPage />} />
+          <Route path="/tensile-structure" element={<ProductsPage />} />
+          
           <Route path="/projects.htm" element={<ProjectsPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          
           <Route path="/blogs.htm" element={<BlogsPage />} />
-          <Route path="/blog/:slug.htm" element={<BlogDetailPage />} />
+          <Route path="/blogs" element={<BlogsPage />} />
+          
+          <Route path="/blog/:slug" element={<BlogDetailPage />} />
           <Route path="/contact-us.htm" element={<ContactPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
+          
           <Route path="/sitemap.htm" element={<SitemapPage />} />
-          <Route path="/:slug.htm" element={<ProductDetailPage />} />
+          <Route path="/sitemap" element={<SitemapPage />} />
+
+          {/* Dynamic Product Pages */}
+          <Route path="/:slug" element={<ProductDetailPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
