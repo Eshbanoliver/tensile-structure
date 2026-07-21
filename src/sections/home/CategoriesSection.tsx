@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const CategoriesSection: React.FC = () => {
   return (
-    <section className="py-16 bg-bgLight">
+    <section className="py-16 bg-[#F8FAFC]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
@@ -14,38 +14,38 @@ export const CategoriesSection: React.FC = () => {
               alt="Tensile Structure Manufacturers in Udaipur"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute bottom-4 left-4 bg-primary/80 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-lg font-semibold">
+            <div className="absolute bottom-4 left-4 bg-[#0B1F35]/90 backdrop-blur-md text-[#00B8D9] text-xs px-3 py-1.5 rounded-lg font-bold">
               Tensile Structure
             </div>
           </div>
 
           <div className="space-y-4">
-            <h3 className="font-poppins font-bold text-2xl text-primary">Tensile Structure</h3>
+            <h3 className="font-poppins font-bold text-2xl text-[#0B1F35]">Tensile Structure</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Future Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur that stretch across large areas without column obstruction...
             </p>
             <Link 
               to="/tensile-structure.htm"
-              className="inline-flex items-center space-x-2 text-accent font-poppins font-bold text-xs hover:underline"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-[#0B1F35] text-white font-poppins font-bold text-xs uppercase tracking-wider hover:bg-[#123B63] transition-all shadow-md"
             >
               <span>Explore Details & Specs</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4 text-[#00B8D9]" />
             </Link>
           </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
           <div className="order-last lg:order-first space-y-4">
-            <h3 className="font-poppins font-bold text-2xl text-primary">Car Parking Tensile Structure</h3>
+            <h3 className="font-poppins font-bold text-2xl text-[#0B1F35]">Car Parking Tensile Structure</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
               Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Future Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur that protect your vehicles from harsh weather...
             </p>
             <Link 
               to="/car-parking-tensile-structure.htm"
-              className="inline-flex items-center space-x-2 text-accent font-poppins font-bold text-xs hover:underline"
+              className="inline-flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-[#0B1F35] text-white font-poppins font-bold text-xs uppercase tracking-wider hover:bg-[#123B63] transition-all shadow-md"
             >
               <span>Explore Car Parking Shades</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4 text-[#00B8D9]" />
             </Link>
           </div>
 
@@ -55,7 +55,7 @@ export const CategoriesSection: React.FC = () => {
               alt="Car Parking Tensile Structure"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute bottom-4 left-4 bg-primary/80 backdrop-blur-md text-white text-xs px-3 py-1.5 rounded-lg font-semibold">
+            <div className="absolute bottom-4 left-4 bg-[#0B1F35]/90 backdrop-blur-md text-[#00B8D9] text-xs px-3 py-1.5 rounded-lg font-bold">
               Car Parking Shade
             </div>
           </div>
