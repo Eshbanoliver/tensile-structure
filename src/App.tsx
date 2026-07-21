@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { FloatingActions } from './components/FloatingActions';
 import { EnquiryModal } from './components/EnquiryModal';
+import { SEO } from './components/SEO';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 // Pages
 import { HomePage } from './pages/HomePage';
@@ -16,7 +17,6 @@ import { BlogsPage } from './pages/BlogsPage';
 import { BlogDetailPage } from './pages/BlogDetailPage';
 import { ContactPage } from './pages/ContactPage';
 import { SitemapPage } from './pages/SitemapPage';
-import { COMPANY_INFO } from './data/websiteData';
 
 // Scroll to top on navigation helper
 const ScrollToTop: React.FC = () => {
@@ -32,12 +32,7 @@ export const AppContent: React.FC = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-bgLight text-textDark selection:bg-accent selection:text-primary">
-      <Helmet>
-        <title>Top Tensile Structure Manufacturers in Udaipur, Commercial Gazebo Tensile Structure Suppliers in Rajasthan</title>
-        <meta name="description" content="Future Tensile Structure Pvt. Ltd. Top Tensile Structure Manufacturers in Udaipur, since 2010. Premium Quality Commercial Gazebo Tensile Structure Suppliers in Rajasthan." />
-        <meta name="keywords" content="Top Tensile Structure Manufacturers, Commercial Gazebo Tensile Structure Suppliers, Top Tensile Structure Suppliers, Commercial Gazebo Tensile Structure Manufacturers, Top Tensile Structure Manufacturers in Udaipur" />
-        <meta name="author" content={COMPANY_INFO.name} />
-      </Helmet>
+      <SEO />
 
       <ScrollToTop />
       
@@ -90,11 +85,11 @@ export const AppContent: React.FC = () => {
 
 export const App: React.FC = () => {
   return (
-    <HelmetProvider>
+    <ErrorBoundary>
       <Router>
         <AppContent />
       </Router>
-    </HelmetProvider>
+    </ErrorBoundary>
   );
 };
 
