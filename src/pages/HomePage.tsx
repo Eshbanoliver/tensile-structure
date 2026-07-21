@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import CountUp from 'react-countup';
 import { 
   ArrowRight, 
   CheckCircle, 
@@ -28,11 +27,16 @@ import {
   MISSION_VISION_VALUES 
 } from '../data/websiteData';
 import { EnquiryModal } from '../components/EnquiryModal';
+import { AnimatedCounter } from '../components/AnimatedCounter';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/bundle';
+
+// Ensure component function interop for Vite
+const SwiperComponent: any = (Swiper as any)?.default || Swiper;
+const SwiperSlideComponent: any = (SwiperSlide as any)?.default || SwiperSlide;
 
 export const HomePage: React.FC = () => {
   const [selectedProduct, setSelectedProduct] = useState<string | undefined>(undefined);
@@ -49,7 +53,7 @@ export const HomePage: React.FC = () => {
       
       {/* 1. HERO SECTION */}
       <section className="relative w-full h-[550px] lg:h-[720px] bg-primary">
-        <Swiper
+        <SwiperComponent
           modules={[Autoplay, EffectFade, Navigation, Pagination]}
           effect="fade"
           autoplay={{ delay: 5000, disableOnInteraction: false }}
@@ -59,7 +63,7 @@ export const HomePage: React.FC = () => {
           className="w-full h-full text-white"
         >
           {HERO_SLIDERS.map((slide) => (
-            <SwiperSlide key={slide.id}>
+            <SwiperSlideComponent key={slide.id}>
               <div className="relative w-full h-full flex items-center justify-center">
                 <div 
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
@@ -107,9 +111,9 @@ export const HomePage: React.FC = () => {
                   </motion.div>
                 </div>
               </div>
-            </SwiperSlide>
+            </SwiperSlideComponent>
           ))}
-        </Swiper>
+        </SwiperComponent>
       </section>
 
       {/* 2. ABOUT SECTION */}
@@ -429,8 +433,7 @@ export const HomePage: React.FC = () => {
             {STATISTICS_COUNTERS.map((stat, idx) => (
               <div key={idx} className="space-y-2 p-4 rounded-2xl bg-white/5 border border-white/10">
                 <div className="font-poppins font-black text-4xl sm:text-5xl text-accent">
-                  <CountUp end={stat.count} duration={3} />
-                  <span>{stat.suffix}</span>
+                  <AnimatedCounter end={stat.count} duration={2.5} suffix={stat.suffix} />
                 </div>
                 <div className="text-xs font-semibold text-gray-300 uppercase tracking-wider">
                   {stat.label}
