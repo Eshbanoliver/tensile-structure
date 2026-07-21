@@ -79,7 +79,7 @@ export const WhyChooseUsSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#061322] text-white relative overflow-hidden border-t border-white/10">
+    <section className="pt-24 pb-32 lg:pb-40 bg-[#061322] text-white relative overflow-hidden border-t border-white/10 mb-12 sm:mb-16">
       
       {/* Background Decorative Glow Blobs */}
       <div className="absolute top-10 left-10 w-96 h-96 bg-[#00B8D9]/10 rounded-full filter blur-3xl pointer-events-none" />
