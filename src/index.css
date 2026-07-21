@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --color-primary: #0B1F35;
+  --color-primary-light: #14304F;
+  --color-primary-dark: #061322;
+  --color-secondary: #123B63;
+  --color-secondary-light: #1B5287;
+  --color-secondary-dark: #0B2642;
+  --color-accent: #00B8D9;
+  --color-accent-light: #33C9E3;
+  --color-accent-dark: #008BA4;
+  --color-highlight: #FFB703;
+  --color-highlight-light: #FFC633;
+  --color-highlight-dark: #CC9200;
+  --color-bgLight: #F8FAFC;
+  --color-textDark: #111827;
+  --color-cardBg: #FFFFFF;
+
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  color: #111827;
+  background-color: #F8FAFC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1F35;
+}
+::-webkit-scrollbar-thumb {
+  background: #00B8D9;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFB703;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-dark {
+  background: rgba(11, 31, 53, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.shadow-glow-accent {
+  box-shadow: 0 0 25px rgba(0, 184, 217, 0.4);
+}
