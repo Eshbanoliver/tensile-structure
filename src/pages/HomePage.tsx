@@ -32,9 +32,7 @@ import { EnquiryModal } from '../components/EnquiryModal';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import 'swiper/css/bundle';
 
 export const HomePage: React.FC = () => {
   const [selectedProduct, setSelectedProduct] = useState<string | undefined>(undefined);
@@ -431,7 +429,7 @@ export const HomePage: React.FC = () => {
             {STATISTICS_COUNTERS.map((stat, idx) => (
               <div key={idx} className="space-y-2 p-4 rounded-2xl bg-white/5 border border-white/10">
                 <div className="font-poppins font-black text-4xl sm:text-5xl text-accent">
-                  <CountUp end={stat.count} duration={3} enableScrollSpy scrollSpyOnce />
+                  <CountUp end={stat.count} duration={3} />
                   <span>{stat.suffix}</span>
                 </div>
                 <div className="text-xs font-semibold text-gray-300 uppercase tracking-wider">
