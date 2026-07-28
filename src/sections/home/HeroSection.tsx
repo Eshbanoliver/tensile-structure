@@ -40,8 +40,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuoteModal }) =>
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
                   style={{ backgroundImage: `url(${slide.image})` }}
                 >
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#0B1F35]/95 via-[#0B1F35]/80 to-transparent" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F35] via-transparent to-[#061322]/60" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#0B1F35]/75 via-[#0B1F35]/40 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F35]/60 via-transparent to-transparent" />
                 </div>
 
                 {/* Hero Slide Content */}
