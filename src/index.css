@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #0B1F35;
-  --color-secondary: #123B63;
-  --color-accent: #00B8D9;
-  --color-highlight: #FFB703;
-  --color-bgLight: #F8FAFC;
-  --color-textDark: #111827;
-  
-  --font-poppins: 'Poppins', sans-serif;
-  --font-inter: 'Inter', sans-serif;
-}
-
 :root {
   --primary: #0B1F35;
   --secondary: #123B63;
@@ -20,6 +8,34 @@
   --highlight: #FFB703;
   --bg-light: #F8FAFC;
   --text-dark: #111827;
+
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+/* Theme utility classes for standard CSS & Tailwind compatibility */
+@layer utilities {
+  .bg-primary { background-color: #0B1F35; }
+  .text-primary { color: #0B1F35; }
+  .border-primary { border-color: #0B1F35; }
+
+  .bg-secondary { background-color: #123B63; }
+  .text-secondary { color: #123B63; }
+  .border-secondary { border-color: #123B63; }
+
+  .bg-accent { background-color: #00B8D9; }
+  .text-accent { color: #00B8D9; }
+  .border-accent { border-color: #00B8D9; }
+
+  .bg-highlight { background-color: #FFB703; }
+  .text-highlight { color: #FFB703; }
+  .border-highlight { border-color: #FFB703; }
+
+  .bg-bgLight { background-color: #F8FAFC; }
+  .text-bgLight { color: #F8FAFC; }
+  .border-bgLight { border-color: #F8FAFC; }
+
+  .text-textDark { color: #111827; }
 }
 
 html {
