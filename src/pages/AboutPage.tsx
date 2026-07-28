@@ -215,9 +215,9 @@ export const AboutPage: React.FC = () => {
 
       {/* Bottom CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <div className="bg-gradient-to-r from-secondary to-primary rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="bg-[#0B1F35] rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 border border-[#00B8D9]/40">
           <div className="space-y-3 max-w-xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-accent">Ready To Upgrade Your Space?</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-[#00B8D9]">Ready To Upgrade Your Space?</span>
             <h2 className="font-poppins font-extrabold text-2xl sm:text-4xl text-white">
               Request Architectural Consultation
             </h2>
@@ -229,17 +229,17 @@ export const AboutPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto">
             <Link 
               to="/contact-us.htm"
-              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-accent text-primary font-poppins font-bold text-xs shadow-glow-accent hover:opacity-90 transition-opacity flex items-center justify-center space-x-2"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_25px_rgba(0,184,217,0.4)] transition-all flex items-center justify-center space-x-2 border border-white/30"
             >
               <span>Contact Engineers</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-4 h-4 text-[#0B1F35]" />
             </Link>
 
             <a 
               href="tel:+919887889777"
-              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/10 border border-white/20 text-white font-poppins font-semibold text-xs flex items-center justify-center space-x-2 hover:bg-white/20 transition-colors"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-white/15 border border-white/30 text-white font-poppins font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-2 hover:bg-white/25 transition-colors"
             >
-              <PhoneCall className="w-4 h-4 text-highlight" />
+              <PhoneCall className="w-4 h-4 text-[#FFB703]" />
               <span>Call +91-988-788-9777</span>
             </a>
           </div>

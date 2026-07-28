@@ -85,17 +85,17 @@ export const BlogDetailPage: React.FC = () => {
           </div>
 
           {/* Bottom Consultation Box */}
-          <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 bg-primary text-white p-6 rounded-2xl">
+          <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 bg-[#0B1F35] text-white p-6 sm:p-8 rounded-2xl border border-[#00B8D9]/40">
             <div className="space-y-1 text-center sm:text-left">
-              <h4 className="font-poppins font-bold text-base text-white">Have questions about your tensile project?</h4>
-              <p className="text-xs text-gray-300">Speak directly with our senior structural engineers in Udaipur.</p>
+              <h4 className="font-poppins font-extrabold text-base text-white">Have questions about your tensile project?</h4>
+              <p className="text-xs text-gray-200">Speak directly with our senior structural engineers in Udaipur.</p>
             </div>
 
             <a
               href="tel:+919887889777"
-              className="px-6 py-3 rounded-xl bg-accent text-primary font-poppins font-bold text-xs shadow-glow-accent hover:opacity-90 flex items-center space-x-2 whitespace-nowrap"
+              className="px-6 py-3.5 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_20px_rgba(0,184,217,0.4)] flex items-center space-x-2 whitespace-nowrap transition-colors border border-white/30"
             >
-              <PhoneCall className="w-4 h-4" />
+              <PhoneCall className="w-4 h-4 text-[#0B1F35]" />
               <span>Call +91-988-788-9777</span>
             </a>
           </div>

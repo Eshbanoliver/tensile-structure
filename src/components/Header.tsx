@@ -234,9 +234,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
             <div className="hidden lg:flex items-center space-x-4">
               <button
                 onClick={onOpenQuoteModal}
-                className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#00B8D9] via-[#123B63] to-[#FFB703] text-white font-poppins font-bold text-xs uppercase tracking-wider shadow-lg hover:scale-105 transition-transform flex items-center space-x-2 border border-white/20"
+                className="px-6 py-2.5 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_20px_rgba(0,184,217,0.4)] hover:shadow-[0_0_20px_rgba(255,183,3,0.5)] transition-all flex items-center space-x-2 border border-white/30"
               >
-                <Send className="w-3.5 h-3.5" />
+                <Send className="w-3.5 h-3.5 text-[#0B1F35]" />
                 <span>Get A Quote</span>
               </button>
             </div>
@@ -323,9 +323,9 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
                   setMobileMenuOpen(false);
                   onOpenQuoteModal();
                 }}
-                className="w-full py-3 bg-gradient-to-r from-[#00B8D9] to-[#123B63] text-white font-bold rounded-xl text-center shadow-lg flex items-center justify-center space-x-2 border border-white/20"
+                className="w-full py-3 bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black rounded-xl text-center shadow-lg uppercase text-xs tracking-wider flex items-center justify-center space-x-2 border border-white/30 transition-colors"
               >
-                <Send className="w-4 h-4" />
+                <Send className="w-4 h-4 text-[#0B1F35]" />
                 <span>Get A Quote</span>
               </button>
             </div>

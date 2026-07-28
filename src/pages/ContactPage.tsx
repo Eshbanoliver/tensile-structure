@@ -258,9 +258,9 @@ export const ContactPage: React.FC = () => {
 
                   <button
                     type="submit"
-                    className="w-full py-4 rounded-xl bg-primary text-white font-poppins font-bold text-xs shadow-xl hover:bg-accent hover:text-primary transition-all flex items-center justify-center space-x-2"
+                    className="w-full py-4 rounded-xl bg-[#0B1F35] hover:bg-[#00B8D9] text-white hover:text-[#0B1F35] font-poppins font-black text-xs sm:text-sm uppercase tracking-wider shadow-xl transition-all flex items-center justify-center space-x-2 border border-white/10"
                   >
-                    <Send className="w-4 h-4" />
+                    <Send className="w-4 h-4 text-[#00B8D9] group-hover:text-[#0B1F35]" />
                     <span>Send Project Inquiry Now</span>
                   </button>
                 </form>

@@ -165,30 +165,30 @@ export const ProductDetailPage: React.FC = () => {
           <div className="lg:col-span-4 space-y-6">
             
             {/* Quotation Form Card */}
-            <div className="bg-primary text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-5 relative overflow-hidden">
+            <div className="bg-[#0B1F35] text-white p-6 sm:p-8 rounded-3xl shadow-xl space-y-5 relative overflow-hidden border border-[#00B8D9]/40">
               <div className="space-y-2">
-                <span className="text-[10px] font-bold text-accent uppercase tracking-widest bg-accent/10 px-2.5 py-1 rounded-md">
+                <span className="text-[10px] font-bold text-[#00B8D9] uppercase tracking-widest bg-[#00B8D9]/15 px-2.5 py-1 rounded-md border border-[#00B8D9]/30">
                   Direct Factory Pricing
                 </span>
                 <h3 className="font-poppins font-extrabold text-xl text-white">Get Custom Price Quote</h3>
-                <p className="text-xs text-gray-300 leading-relaxed">
+                <p className="text-xs text-gray-200 leading-relaxed">
                   Request instant cost estimates, site measurement schedules, and CAD drawing mockups for {product.name}.
                 </p>
               </div>
 
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="w-full py-4 rounded-xl bg-accent text-primary font-poppins font-bold text-xs shadow-glow-accent hover:opacity-95 transition-all flex items-center justify-center space-x-2"
+                className="w-full py-4 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_25px_rgba(0,184,217,0.4)] transition-all flex items-center justify-center space-x-2 border border-white/30"
               >
-                <Send className="w-4 h-4" />
+                <Send className="w-4 h-4 text-[#0B1F35]" />
                 <span>Enquire Price Now</span>
               </button>
 
               <a
                 href="tel:+919887889777"
-                className="w-full py-3.5 rounded-xl bg-white/10 border border-white/20 text-white font-poppins font-semibold text-xs flex items-center justify-center space-x-2 hover:bg-white/20 transition-colors"
+                className="w-full py-3.5 rounded-xl bg-white/15 border border-white/30 text-white font-poppins font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-2 hover:bg-white/25 transition-colors"
               >
-                <PhoneCall className="w-4 h-4 text-highlight" />
+                <PhoneCall className="w-4 h-4 text-[#FFB703]" />
                 <span>Call +91-988-788-9777</span>
               </a>
 
@@ -196,9 +196,9 @@ export const ProductDetailPage: React.FC = () => {
                 href={`https://wa.me/919887889777?text=Hello,%20I%20am%20interested%20in%20${encodeURIComponent(product.name)}.%20Please%20send%20quote.`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3.5 rounded-xl bg-emerald-600/20 border border-emerald-500/30 text-emerald-300 font-poppins font-semibold text-xs flex items-center justify-center space-x-2 hover:bg-emerald-600/30 transition-colors"
+                className="w-full py-3.5 rounded-xl bg-emerald-600 border border-emerald-400 text-white font-poppins font-bold text-xs uppercase tracking-wider flex items-center justify-center space-x-2 hover:bg-emerald-500 transition-colors shadow-md"
               >
-                <Send className="w-4 h-4 text-emerald-400" />
+                <Send className="w-4 h-4 text-white" />
                 <span>WhatsApp Instant Inquiry</span>
               </a>
             </div>

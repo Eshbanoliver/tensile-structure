@@ -197,22 +197,22 @@ export const ProductsPage: React.FC = () => {
 
       {/* Bottom CTA Banner */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
-        <div className="bg-primary rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="bg-[#0B1F35] rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8 border border-[#00B8D9]/40">
           <div className="space-y-3 max-w-xl">
-            <span className="text-xs font-bold uppercase tracking-widest text-accent">Need Custom Dimensions?</span>
+            <span className="text-xs font-bold uppercase tracking-widest text-[#00B8D9]">Need Custom Dimensions?</span>
             <h2 className="font-poppins font-extrabold text-2xl sm:text-3xl text-white">
               Can't Find Your Exact Tensile Structure Spec?
             </h2>
-            <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
+            <p className="text-gray-200 text-xs sm:text-sm leading-relaxed">
               We manufacture 100% customized tensile structures according to your plot area, height, wind load requirements, and color preferences.
             </p>
           </div>
 
           <button
             onClick={() => openQuote("Custom Architectural Tensile Structure")}
-            className="px-8 py-4 rounded-xl bg-accent text-primary font-poppins font-bold text-xs shadow-glow-accent hover:opacity-90 transition-opacity flex items-center justify-center space-x-2 whitespace-nowrap"
+            className="px-8 py-4 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_25px_rgba(0,184,217,0.4)] transition-all flex items-center justify-center space-x-2 whitespace-nowrap border border-white/30"
           >
-            <Send className="w-4 h-4" />
+            <Send className="w-4 h-4 text-[#0B1F35]" />
             <span>Request Custom Design Quote</span>
           </button>
         </div>

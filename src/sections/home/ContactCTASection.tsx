@@ -50,9 +50,9 @@ export const ContactCTASection: React.FC<ContactCTASectionProps> = ({ onOpenQuot
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={onOpenQuoteModal}
-              className="px-8 py-4 rounded-2xl bg-gradient-to-r from-[#00B8D9] via-[#008BA4] to-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs sm:text-sm uppercase tracking-wider shadow-[0_0_30px_rgba(0,184,217,0.5)] hover:shadow-[0_0_40px_rgba(255,183,3,0.6)] transition-all flex items-center space-x-2.5 border border-white/30"
+              className="px-8 py-4 rounded-2xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs sm:text-sm uppercase tracking-wider shadow-[0_0_30px_rgba(0,184,217,0.5)] hover:shadow-[0_0_40px_rgba(255,183,3,0.6)] transition-all flex items-center space-x-2.5 border border-white/40"
             >
-              <Send className="w-4 h-4 fill-current" />
+              <Send className="w-4 h-4 text-[#0B1F35]" />
               <span>Get Instant Factory Quote</span>
             </motion.button>
 

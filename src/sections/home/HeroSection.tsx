@@ -68,10 +68,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuoteModal }) =>
                     <div className="pt-2 sm:pt-4 flex flex-wrap items-center gap-3 sm:gap-4">
                       <button
                         onClick={() => onOpenQuoteModal(slide.title)}
-                        className="px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl bg-gradient-to-r from-[#00B8D9] via-[#123B63] to-[#FFB703] text-white font-poppins font-bold text-xs sm:text-sm uppercase tracking-wider shadow-lg hover:scale-105 transition-transform flex items-center space-x-2 border border-white/20"
+                        className="px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs sm:text-sm uppercase tracking-wider shadow-[0_0_25px_rgba(0,184,217,0.5)] hover:shadow-[0_0_25px_rgba(255,183,3,0.5)] transition-all flex items-center space-x-2 border border-white/40"
                       >
                         <span>Request Factory Price</span>
-                        <ArrowRight className="w-4 h-4" />
+                        <ArrowRight className="w-4 h-4 text-[#0B1F35]" />
                       </button>
 
                       <Link

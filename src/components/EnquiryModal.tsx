@@ -145,9 +145,9 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, pro
 
               <button
                 type="submit"
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-[#00B8D9] via-[#123B63] to-[#FFB703] font-poppins font-bold text-xs uppercase tracking-wider text-white shadow-lg hover:opacity-95 transition-opacity flex items-center justify-center space-x-2"
+                className="w-full py-3.5 rounded-xl bg-[#00B8D9] hover:bg-[#FFB703] text-[#0B1F35] font-poppins font-black text-xs uppercase tracking-wider shadow-[0_0_20px_rgba(0,184,217,0.4)] transition-all flex items-center justify-center space-x-2 border border-white/30"
               >
-                <Send className="w-4 h-4" />
+                <Send className="w-4 h-4 text-[#0B1F35]" />
                 <span>Submit Instant Enquiry</span>
               </button>
             </form>
