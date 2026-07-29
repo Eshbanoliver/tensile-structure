@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -9,8 +8,39 @@
   --bg-light: #F8FAFC;
   --text-dark: #111827;
 
-  --font-poppins: 'Poppins', sans-serif;
-  --font-inter: 'Inter', sans-serif;
+  --font-poppins: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-inter: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Global Hardware & Render Optimization */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #111827;
+  background-color: #F8FAFC;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+}
+
+/* GPU Acceleration Utilities */
+.transform-gpu {
+  transform: translate3d(0, 0, 0);
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 500px;
 }
 
 /* Theme utility classes for standard CSS & Tailwind compatibility */
@@ -38,27 +68,16 @@
   .text-textDark { color: #111827; }
 }
 
-html {
-  scroll-behavior: smooth;
-  font-family: 'Inter', sans-serif;
-  color: #111827;
-  background-color: #F8FAFC;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', sans-serif;
-}
-
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #0B1F35;
+  background: #061322;
 }
 ::-webkit-scrollbar-thumb {
   background: #00B8D9;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #FFB703;
@@ -86,3 +105,4 @@ h1, h2, h3, h4, h5, h6 {
 .shadow-glow-highlight {
   box-shadow: 0 0 25px rgba(255, 183, 3, 0.4);
 }
+

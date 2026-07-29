@@ -37,7 +37,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuoteModal }) =>
                 
                 {/* Background Image with Dark Dual Gradient Overlays */}
                 <div 
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
+                  className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105 transform-gpu"
                   style={{ backgroundImage: `url(${slide.image})` }}
                 >
                   <div className="absolute inset-0 bg-gradient-to-r from-[#0B1F35]/75 via-[#0B1F35]/40 to-transparent" />
