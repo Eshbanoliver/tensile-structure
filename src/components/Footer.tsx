@@ -296,7 +296,17 @@ export const Footer: React.FC = () => {
 
         {/* 4. BOTTOM LIGHT COPYRIGHT BAR */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 font-medium">
-          <p>© 2026 {COMPANY_INFO.name}. All Rights Reserved.</p>
+          <p>
+            ©️ Copyright 2026 | Future Tensile Structure Pvt. Ltd. | All Rights Reserved | Powered by{' '}
+            <a 
+              href="https://www.futurexdigitalmarketing.com/" 
+              target="_blank" 
+              rel="noopener" 
+              style={{ color: '#28a745' }}
+            >
+              FutureX Digital Marketing
+            </a>
+          </p>
           <p className="mt-2 md:mt-0 text-[#0B1F35] font-semibold">
             Top Tensile Structure Manufacturers in Udaipur, Rajasthan, India
           </p>
