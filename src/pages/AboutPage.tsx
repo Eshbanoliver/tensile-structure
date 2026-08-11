@@ -346,7 +346,7 @@ export const AboutPage: React.FC = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
               <img 
-                src="https://www.futuretensilestructure.com/uploaded-files/page-images/thumbs/Home-thumbs-440X440.jpg" 
+                src="/images/Home-thumbs-440X440.jpg" 
                 alt="About Future Tensile Structure Workshop"
                 className="w-full h-[480px] object-cover group-hover:scale-105 transition-transform duration-700"
               />

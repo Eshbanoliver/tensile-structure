@@ -12,7 +12,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
               <img 
-                src="https://www.futuretensilestructure.com/uploaded-files/page-images/thumbs/Home-thumbs-440X440.jpg"
+                src="/images/Home-thumbs-440X440.jpg"
                 alt="Top Tensile Structure Manufacturers in Udaipur"
                 className="w-full h-[320px] sm:h-[450px] object-cover hover:scale-105 transition-transform duration-700"
               />

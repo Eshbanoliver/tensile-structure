@@ -9,21 +9,21 @@ export const VideosSection: React.FC = () => {
       id: "v1",
       title: "Car Parking Tensile Structure Installation",
       desc: "Watch our site engineering team erect a multi-car parking shade in record time.",
-      thumbnail: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Car-Parking-Tensile-Structure-thumbs-700X337.webp",
+      thumbnail: "/images/Car-Parking-Tensile-Structure-thumbs-700X337.webp",
       embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
       id: "v2",
       title: "Walkway Tensile Canopy Fabrication",
       desc: "Detailed video walkthrough of high-frequency PVC membrane seam welding.",
-      thumbnail: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Walkway-Tensile-Structure-thumbs-700X337.webp",
+      thumbnail: "/images/Walkway-Tensile-Structure-thumbs-700X337.webp",
       embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
       id: "v3",
       title: "Resort Gazebo Tensile Structure Showcase",
       desc: "360-degree architectural view of luxury white gazebo shades installed at heritage resorts.",
-      thumbnail: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Gazebo-Tensile-Structure-thumbs-700X337.webp",
+      thumbnail: "/images/Gazebo-Tensile-Structure-thumbs-700X337.webp",
       embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
     }
   ];

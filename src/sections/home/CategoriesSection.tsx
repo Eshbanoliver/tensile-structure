@@ -10,7 +10,7 @@ export const CategoriesSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white rounded-3xl p-6 sm:p-8 shadow-xl border border-gray-100">
           <div className="relative rounded-2xl overflow-hidden h-72 lg:h-96">
             <img 
-              src="https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg"
+              src="/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg"
               alt="Tensile Structure Manufacturers in Udaipur"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />
@@ -51,7 +51,7 @@ export const CategoriesSection: React.FC = () => {
 
           <div className="relative rounded-2xl overflow-hidden h-72 lg:h-96">
             <img 
-              src="https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg"
+              src="/images/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg"
               alt="Car Parking Tensile Structure"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
             />

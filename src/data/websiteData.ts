@@ -64,22 +64,22 @@ export const HERO_SLIDERS = [
     id: "1",
     title: "Car Parking Tensile Structure",
     subtitle: "Modern Tensile Shades Built for Vehicle Protection",
-    image: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Car-Parking-Tensile-Structure-thumbs-1500X722.webp",
-    mobileImage: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Car-Parking-Tensile-Structure-thumbs-700X337.webp",
+    image: "/images/Car-Parking-Tensile-Structure-thumbs-1500X722.webp",
+    mobileImage: "/images/Car-Parking-Tensile-Structure-thumbs-700X337.webp",
   },
   {
     id: "2",
     title: "Walkway Tensile Structure",
     subtitle: "Smart Tensile Structures for Seamless Pedestrian Access",
-    image: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Walkway-Tensile-Structure-thumbs-1500X722.webp",
-    mobileImage: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Walkway-Tensile-Structure-thumbs-700X337.webp",
+    image: "/images/Walkway-Tensile-Structure-thumbs-1500X722.webp",
+    mobileImage: "/images/Walkway-Tensile-Structure-thumbs-700X337.webp",
   },
   {
     id: "3",
     title: "Gazebo Tensile Structure",
     subtitle: "Iconic Tensile Gazebos Elevating Outdoor Experiences",
-    image: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Gazebo-Tensile-Structure-thumbs-1500X722.webp",
-    mobileImage: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Gazebo-Tensile-Structure-thumbs-700X337.webp",
+    image: "/images/Gazebo-Tensile-Structure-thumbs-1500X722.webp",
+    mobileImage: "/images/Gazebo-Tensile-Structure-thumbs-700X337.webp",
   }
 ];
 
@@ -91,8 +91,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Tensile Structure",
     shortDesc: "Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Future Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur...",
     fullDesc: "Future Tensile Structure Pvt. Ltd. offers premium tensile structure solutions designed for durability, flexibility, and modern architectural appeal. Ideal for car parking, walkways, commercial spaces, and outdoor areas, these structures are made using high-quality fabric and strong frameworks for long-lasting performance and weather resistance.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg"
+    image: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg",
+    thumb: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg"
   },
   {
     id: "p2",
@@ -101,8 +101,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Parking Shades",
     shortDesc: "Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Future Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur...",
     fullDesc: "Protect your vehicles with state-of-the-art Car Parking Tensile Structures. Engineered with UV-resistant fabric and high-strength galvanized steel frames, our parking shades safeguard against extreme sun, hail, rain, and debris while adding modern elegance to commercial hubs and residential properties.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Car-Parking-Tensile-Structure-small.jpg"
+    image: "/images/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg",
+    thumb: "/images/Car-Parking-Tensile-Structure-small.jpg"
   },
   {
     id: "p3",
@@ -111,8 +111,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Outdoor Leisure",
     shortDesc: "Revamping an exposed patio or a sun-drenched lawn demands a smart, elegant solution. Traditional fabric parasols snap in the wind and fade rapidly, leaving your outdoor seating area looking neglected. At Future Tensile Structure Pvt. Ltd., we engineer stunning...",
     fullDesc: "Our heavy-duty Garden Tensile Umbrellas combine sleek aesthetic design with rugged structural resilience. Designed to withstand wind forces while providing 100% shade and waterproof protection for gardens, resorts, and outdoor cafes.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg"
+    image: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg",
+    thumb: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg"
   },
   {
     id: "p4",
@@ -121,8 +121,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Fabric Structures",
     shortDesc: "Custom designed architectural fabric structures tailored to any geometric form or environmental condition.",
     fullDesc: "Tensile Fabric Structures represent the height of lightweight architecture. Engineered with PVDF and PTFE membrane materials, these structures offer column-free wide spans, daylight translucency, and exceptional tensile strength.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg"
+    image: "/images/Tensile-Fabric-Structure-small.jpg",
+    thumb: "/images/Tensile-Fabric-Structure-small.jpg"
   },
   {
     id: "p5",
@@ -131,8 +131,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Architectural Membranes",
     shortDesc: "High-grade architectural membrane systems designed for resorts, auditoriums, and public complexes.",
     fullDesc: "Our Tensile Membrane Structures feature sophisticated membrane technology engineered to resist severe weather, thermal expansion, and mechanical tension while delivering breathtaking aesthetic silhouettes.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg"
+    image: "/images/Tensile-Membrane-Structure-small.jpg",
+    thumb: "/images/Tensile-Membrane-Structure-small.jpg"
   },
   {
     id: "p6",
@@ -141,8 +141,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Architectural",
     shortDesc: "Iconic structural landmarks combining tensioned steel cables and membrane sails.",
     fullDesc: "Bespoke architectural creations engineered for civic plazas, luxury resorts, and corporate headquarters looking for striking visual identity and climate-controlled shade solutions.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg"
+    image: "/images/Tensile-Architecture-Structure-small.jpg",
+    thumb: "/images/Tensile-Architecture-Structure-small.jpg"
   },
   {
     id: "p7",
@@ -151,8 +151,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Outdoor Leisure",
     shortDesc: "Future Tensile Structure Pvt. Ltd. transforms completely bare and unusable exterior zones into stunning, all-weather lounges...",
     fullDesc: "Turn outdoor courtyards, terraces, and open lawns into comfortable year-round environments with customized outdoor tensile shade solutions engineered for maximum longevity.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg"
+    image: "/images/Outdoor-Tensile-Structure-large.jpg",
+    thumb: "/images/Outdoor-Tensile-Structure-large.jpg"
   },
   {
     id: "p8",
@@ -161,8 +161,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Industrial Sheds",
     shortDesc: "Future Tensile Structure Pvt. Ltd. understands that expanding your factory or warehouse operations shouldn't require waiting months...",
     fullDesc: "Rapid-deploy industrial fabric sheds ideal for manufacturing units, warehouse inventory storage, and temporary logistics bays requiring high clearance and wide pillar-free spans.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Industrial-Tensile-Shed-large.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Industrial-Tensile-Shed-large.jpg"
+    image: "/images/Industrial-Tensile-Shed-large.jpg",
+    thumb: "/images/Industrial-Tensile-Shed-large.jpg"
   },
   {
     id: "p9",
@@ -171,8 +171,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Roofing Sheds",
     shortDesc: "Future Tensile Structure Pvt. Ltd. brings an extraordinary transformation to unused rooftops. Leaving your top floor completely bare...",
     fullDesc: "Convert unutilized terrace rooftops into elegant lounge spaces, open-air cafes, or private gardens protected from heat, UV exposure, and heavy rains.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Terrace-Tensile-Shed-large.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Terrace-Tensile-Shed-large.jpg"
+    image: "/images/Terrace-Tensile-Shed-large.jpg",
+    thumb: "/images/Terrace-Tensile-Shed-large.jpg"
   },
   {
     id: "p10",
@@ -181,30 +181,30 @@ export const PRODUCTS_LIST: ProductItem[] = [
     category: "Tents & Canopies",
     shortDesc: "Future Tensile Structure Pvt. Ltd. designs premium modular canopies that elevate any outdoor gathering instantly...",
     fullDesc: "Distinctive high-peak Pagoda Tensile Tents designed for luxury events, resort outdoor pavilions, and VIP exhibition spaces.",
-    image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Pagoda-Tent-large.jpg",
-    thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Pagoda-Tent-large.jpg"
+    image: "/images/Tensile-Pagoda-Tent-large.jpg",
+    thumb: "/images/Tensile-Pagoda-Tent-large.jpg"
   },
-  { id: "p11", slug: "ptfe-tensile-membrane-structure", name: "PTFE Tensile Membrane Structure", category: "Membrane Structures", shortDesc: "Highest durability PTFE coated glass fiber membrane structures engineered for 30+ year lifespan.", fullDesc: "PTFE Tensile Membrane Structures feature extreme thermal resistance, self-cleaning fluoropolymer coating, and unmatched fire rating.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg" },
-  { id: "p12", slug: "tensile-roofing", name: "Tensile Roofing", category: "Roofing Solutions", shortDesc: "Reflective tensile fabric roofing designed to reduce interior temperatures and block harmful solar heat.", fullDesc: "Custom tensile roofing solutions suitable for sports arenas, industrial complexes, and commercial entry points.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
-  { id: "p13", slug: "gazebo-tensile-structure", name: "Gazebo Tensile Structure", category: "Outdoor Leisure", shortDesc: "Modular and stylish gazebo units perfect for outdoor dining and resort relaxation zones.", fullDesc: "Premium Gazebo Tensile Structures offering dynamic architectural geometry, water resistance, and cooling ambient shade.", image: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Gazebo-Tensile-Structure-thumbs-1500X722.webp", thumb: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Gazebo-Tensile-Structure-thumbs-700X337.webp" },
-  { id: "p14", slug: "walkway-tensile-structure", name: "Walkway Tensile Structure", category: "Pedestrian Canopies", shortDesc: "Smart walkway shades for hospitals, school campuses, corporate parks, and transit terminals.", fullDesc: "Covered pedestrian walkways engineered to provide weather-protected transit corridors across expansive properties.", image: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Walkway-Tensile-Structure-thumbs-1500X722.webp", thumb: "https://www.futuretensilestructure.com/uploaded-files/banner-image/thumbs/Walkway-Tensile-Structure-thumbs-700X337.webp" },
-  { id: "p15", slug: "entrance-tensile-structure", name: "Entrance Tensile Structure", category: "Canopies", shortDesc: "Grand entry canopies designed to create a striking architectural impression for corporate hubs.", fullDesc: "Turn simple doorways into grand architectural statements with custom arched and cantilevered entry canopies.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg" },
-  { id: "p16", slug: "stadium-tensile-structure", name: "Stadium Tensile Structure", category: "Wide Span", shortDesc: "Massive column-free stadium roof covers using tensioned cable networks and PTFE membranes.", fullDesc: "Turnkey stadium roof structures capable of spanning thousands of square meters without sightline obstructions.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
-  { id: "p17", slug: "swimming-pool-tensile-cover", name: "Swimming Pool Tensile Cover", category: "Leisure Covers", shortDesc: "UV protective pool shades keeping water temperatures pleasant and swimmers protected.", fullDesc: "Sleek pool covers that safeguard users against direct sun glare and keep pool water free from environmental leaves and dust.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg" },
-  { id: "p18", slug: "royal-resort-tent-house", name: "Royal Resort Tent House", category: "Luxury Tents", shortDesc: "Luxury resort glamping tent structures designed with modern insulation for AC comfort.", fullDesc: "Turnkey resort accommodation tents combining traditional aesthetic charm with high-performance structural steel and insulated fabric.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Pagoda-Tent-large.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Pagoda-Tent-large.jpg" },
-  { id: "p19", slug: "pvc-tensile-structure", name: "PVC Tensile Structure", category: "Fabric Structures", shortDesc: "Economical and versatile PVC coated polyester fabric structures for diverse commercial applications.", fullDesc: "Flexible, vibrant, and fire-retardant PVC fabric structures engineered for cost-effective shading.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg" },
-  { id: "p20", slug: "tensile-dome-structure", name: "Tensile Dome Structure", category: "Specialty Structures", shortDesc: "Semi-spherical geometric domes providing pillarless interior volume for venues and exhibitions.", fullDesc: "Iconic dome tensioned structures providing grand volumetric capacity and dramatic visual impact.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg" },
-  { id: "p21", slug: "canopy-tensile-structure", name: "Canopy Tensile Structure", category: "Canopies", shortDesc: "Versatile canopy structures tailored for open plazas, gas stations, and entry gates.", fullDesc: "Architectural tensioned fabric canopies providing sleek lines, rainwater management, and solar shading.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg" },
-  { id: "p22", slug: "reverse-tensile-structure", name: "Reverse Tensile Structure", category: "Conical Shades", shortDesc: "Inverted cone structure designed to collect rainwater while delivering a captivating aesthetic.", fullDesc: "Functional reverse conical tensile shades serving dual purposes of shade provision and integrated rainwater harvesting.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
-  { id: "p23", slug: "umbrella-tensile-structure", name: "Umbrella Tensile Structure", category: "Umbrellas", shortDesc: "Heavy-duty fixed single-column umbrella shades engineered for severe wind loads.", fullDesc: "Permanent commercial umbrella structures engineered for hotel patios, public squares, and cafe gardens.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
-  { id: "p24", slug: "tensile-cone-structure", name: "Tensile Cone Structure", category: "Conical Shades", shortDesc: "Classic conical tension membrane design offering maximum central height and elegant slopes.", fullDesc: "High-peak cone structures engineered to handle extreme wind tension while casting expansive shade footprints.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Membrane-Structure-small.jpg" },
-  { id: "p25", slug: "tensile-shed", name: "Tensile Shed", category: "Roofing Sheds", shortDesc: "Durable and rapid-assembly fabric sheds for multi-purpose utility protection.", fullDesc: "Engineered tensile sheds designed for commercial yards, loading docks, and utility compounds.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Industrial-Tensile-Shed-large.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Industrial-Tensile-Shed-large.jpg" },
-  { id: "p26", slug: "car-parking-shed", name: "Car Parking Shed", category: "Parking Shades", shortDesc: "Reliable vehicle protection sheds built with durable steel posts and UV fabric.", fullDesc: "Multi-vehicle parking sheds ideal for residential housing societies and commercial office complexes.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Car-Parking-Tensile-Structure-small.jpg" },
-  { id: "p27", slug: "auditorium-tensile-structure", name: "Auditorium Tensile Structure", category: "Wide Span", shortDesc: "Column-free acoustic and thermal canopy systems for outdoor auditoriums and amphitheaters.", fullDesc: "Wide-span tensile roofing tailored for open-air theaters and public gathering spaces.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Architecture-Structure-small.jpg" },
-  { id: "p28", slug: "tensile-skylark-structure", name: "Tensile Skylark Structure", category: "Specialty Structures", shortDesc: "Dynamic wing-like architectural form delivering modern luxury visual appeal.", fullDesc: "Bespoke skylark tensile forms designed to anchor luxury estate entrances and resort focal points.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
-  { id: "p29", slug: "inverted-umbrella-tensile-structure", name: "Inverted Umbrella Tensile Structure", category: "Umbrellas", shortDesc: "Inverted tension umbrella shade with center column rainwater drainage.", fullDesc: "Single-mast inverted umbrella systems ideal for central courtyard gathering points.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
-  { id: "p30", slug: "tensile-light-weight-structure", name: "Tensile Light Weight Structure", category: "Lightweight", shortDesc: "Ultra lightweight tensioned membrane systems minimizing foundation weight requirements.", fullDesc: "Engineered lightweight tensile solutions for retrofitting existing building roofs and balcony cantilevers.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Tensile-Fabric-Structure-small.jpg" },
-  { id: "p31", slug: "fabric-canopy-structure", name: "Fabric Canopy Structure", category: "Canopies", shortDesc: "Flexible architectural fabric canopies custom tailored to any layout requirement.", fullDesc: "Weatherproof fabric canopies delivering high UV shading and structural durability.", image: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg", thumb: "https://www.futuretensilestructure.com/uploaded-files/category/images/thumbs/Outdoor-Tensile-Structure-large.jpg" }
+  { id: "p11", slug: "ptfe-tensile-membrane-structure", name: "PTFE Tensile Membrane Structure", category: "Membrane Structures", shortDesc: "Highest durability PTFE coated glass fiber membrane structures engineered for 30+ year lifespan.", fullDesc: "PTFE Tensile Membrane Structures feature extreme thermal resistance, self-cleaning fluoropolymer coating, and unmatched fire rating.", image: "/images/Tensile-Membrane-Structure-small.jpg", thumb: "/images/Tensile-Membrane-Structure-small.jpg" },
+  { id: "p12", slug: "tensile-roofing", name: "Tensile Roofing", category: "Roofing Solutions", shortDesc: "Reflective tensile fabric roofing designed to reduce interior temperatures and block harmful solar heat.", fullDesc: "Custom tensile roofing solutions suitable for sports arenas, industrial complexes, and commercial entry points.", image: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
+  { id: "p13", slug: "gazebo-tensile-structure", name: "Gazebo Tensile Structure", category: "Outdoor Leisure", shortDesc: "Modular and stylish gazebo units perfect for outdoor dining and resort relaxation zones.", fullDesc: "Premium Gazebo Tensile Structures offering dynamic architectural geometry, water resistance, and cooling ambient shade.", image: "/images/Gazebo-Tensile-Structure-thumbs-1500X722.webp", thumb: "/images/Gazebo-Tensile-Structure-thumbs-700X337.webp" },
+  { id: "p14", slug: "walkway-tensile-structure", name: "Walkway Tensile Structure", category: "Pedestrian Canopies", shortDesc: "Smart walkway shades for hospitals, school campuses, corporate parks, and transit terminals.", fullDesc: "Covered pedestrian walkways engineered to provide weather-protected transit corridors across expansive properties.", image: "/images/Walkway-Tensile-Structure-thumbs-1500X722.webp", thumb: "/images/Walkway-Tensile-Structure-thumbs-700X337.webp" },
+  { id: "p15", slug: "entrance-tensile-structure", name: "Entrance Tensile Structure", category: "Canopies", shortDesc: "Grand entry canopies designed to create a striking architectural impression for corporate hubs.", fullDesc: "Turn simple doorways into grand architectural statements with custom arched and cantilevered entry canopies.", image: "/images/Tensile-Architecture-Structure-small.jpg", thumb: "/images/Tensile-Architecture-Structure-small.jpg" },
+  { id: "p16", slug: "stadium-tensile-structure", name: "Stadium Tensile Structure", category: "Wide Span", shortDesc: "Massive column-free stadium roof covers using tensioned cable networks and PTFE membranes.", fullDesc: "Turnkey stadium roof structures capable of spanning thousands of square meters without sightline obstructions.", image: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
+  { id: "p17", slug: "swimming-pool-tensile-cover", name: "Swimming Pool Tensile Cover", category: "Leisure Covers", shortDesc: "UV protective pool shades keeping water temperatures pleasant and swimmers protected.", fullDesc: "Sleek pool covers that safeguard users against direct sun glare and keep pool water free from environmental leaves and dust.", image: "/images/Outdoor-Tensile-Structure-large.jpg", thumb: "/images/Outdoor-Tensile-Structure-large.jpg" },
+  { id: "p18", slug: "royal-resort-tent-house", name: "Royal Resort Tent House", category: "Luxury Tents", shortDesc: "Luxury resort glamping tent structures designed with modern insulation for AC comfort.", fullDesc: "Turnkey resort accommodation tents combining traditional aesthetic charm with high-performance structural steel and insulated fabric.", image: "/images/Tensile-Pagoda-Tent-large.jpg", thumb: "/images/Tensile-Pagoda-Tent-large.jpg" },
+  { id: "p19", slug: "pvc-tensile-structure", name: "PVC Tensile Structure", category: "Fabric Structures", shortDesc: "Economical and versatile PVC coated polyester fabric structures for diverse commercial applications.", fullDesc: "Flexible, vibrant, and fire-retardant PVC fabric structures engineered for cost-effective shading.", image: "/images/Tensile-Fabric-Structure-small.jpg", thumb: "/images/Tensile-Fabric-Structure-small.jpg" },
+  { id: "p20", slug: "tensile-dome-structure", name: "Tensile Dome Structure", category: "Specialty Structures", shortDesc: "Semi-spherical geometric domes providing pillarless interior volume for venues and exhibitions.", fullDesc: "Iconic dome tensioned structures providing grand volumetric capacity and dramatic visual impact.", image: "/images/Tensile-Architecture-Structure-small.jpg", thumb: "/images/Tensile-Architecture-Structure-small.jpg" },
+  { id: "p21", slug: "canopy-tensile-structure", name: "Canopy Tensile Structure", category: "Canopies", shortDesc: "Versatile canopy structures tailored for open plazas, gas stations, and entry gates.", fullDesc: "Architectural tensioned fabric canopies providing sleek lines, rainwater management, and solar shading.", image: "/images/Outdoor-Tensile-Structure-large.jpg", thumb: "/images/Outdoor-Tensile-Structure-large.jpg" },
+  { id: "p22", slug: "reverse-tensile-structure", name: "Reverse Tensile Structure", category: "Conical Shades", shortDesc: "Inverted cone structure designed to collect rainwater while delivering a captivating aesthetic.", fullDesc: "Functional reverse conical tensile shades serving dual purposes of shade provision and integrated rainwater harvesting.", image: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
+  { id: "p23", slug: "umbrella-tensile-structure", name: "Umbrella Tensile Structure", category: "Umbrellas", shortDesc: "Heavy-duty fixed single-column umbrella shades engineered for severe wind loads.", fullDesc: "Permanent commercial umbrella structures engineered for hotel patios, public squares, and cafe gardens.", image: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
+  { id: "p24", slug: "tensile-cone-structure", name: "Tensile Cone Structure", category: "Conical Shades", shortDesc: "Classic conical tension membrane design offering maximum central height and elegant slopes.", fullDesc: "High-peak cone structures engineered to handle extreme wind tension while casting expansive shade footprints.", image: "/images/Tensile-Membrane-Structure-small.jpg", thumb: "/images/Tensile-Membrane-Structure-small.jpg" },
+  { id: "p25", slug: "tensile-shed", name: "Tensile Shed", category: "Roofing Sheds", shortDesc: "Durable and rapid-assembly fabric sheds for multi-purpose utility protection.", fullDesc: "Engineered tensile sheds designed for commercial yards, loading docks, and utility compounds.", image: "/images/Industrial-Tensile-Shed-large.jpg", thumb: "/images/Industrial-Tensile-Shed-large.jpg" },
+  { id: "p26", slug: "car-parking-shed", name: "Car Parking Shed", category: "Parking Shades", shortDesc: "Reliable vehicle protection sheds built with durable steel posts and UV fabric.", fullDesc: "Multi-vehicle parking sheds ideal for residential housing societies and commercial office complexes.", image: "/images/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg", thumb: "/images/Car-Parking-Tensile-Structure-small.jpg" },
+  { id: "p27", slug: "auditorium-tensile-structure", name: "Auditorium Tensile Structure", category: "Wide Span", shortDesc: "Column-free acoustic and thermal canopy systems for outdoor auditoriums and amphitheaters.", fullDesc: "Wide-span tensile roofing tailored for open-air theaters and public gathering spaces.", image: "/images/Tensile-Architecture-Structure-small.jpg", thumb: "/images/Tensile-Architecture-Structure-small.jpg" },
+  { id: "p28", slug: "tensile-skylark-structure", name: "Tensile Skylark Structure", category: "Specialty Structures", shortDesc: "Dynamic wing-like architectural form delivering modern luxury visual appeal.", fullDesc: "Bespoke skylark tensile forms designed to anchor luxury estate entrances and resort focal points.", image: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg", thumb: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg" },
+  { id: "p29", slug: "inverted-umbrella-tensile-structure", name: "Inverted Umbrella Tensile Structure", category: "Umbrellas", shortDesc: "Inverted tension umbrella shade with center column rainwater drainage.", fullDesc: "Single-mast inverted umbrella systems ideal for central courtyard gathering points.", image: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg", thumb: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg" },
+  { id: "p30", slug: "tensile-light-weight-structure", name: "Tensile Light Weight Structure", category: "Lightweight", shortDesc: "Ultra lightweight tensioned membrane systems minimizing foundation weight requirements.", fullDesc: "Engineered lightweight tensile solutions for retrofitting existing building roofs and balcony cantilevers.", image: "/images/Tensile-Fabric-Structure-small.jpg", thumb: "/images/Tensile-Fabric-Structure-small.jpg" },
+  { id: "p31", slug: "fabric-canopy-structure", name: "Fabric Canopy Structure", category: "Canopies", shortDesc: "Flexible architectural fabric canopies custom tailored to any layout requirement.", fullDesc: "Weatherproof fabric canopies delivering high UV shading and structural durability.", image: "/images/Outdoor-Tensile-Structure-large.jpg", thumb: "/images/Outdoor-Tensile-Structure-large.jpg" }
 ];
 
 export const PROJECT_GALLERY: ProjectItem[] = [
@@ -212,50 +212,50 @@ export const PROJECT_GALLERY: ProjectItem[] = [
     id: "proj1",
     title: "Single Bay Fabric Parking Shade",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a2813d34b93-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a2813d34b93-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a2813d34b93-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a2813d34b93-gallery-thumb-big.jpg"
   },
   {
     id: "proj2",
     title: "Double Span Fabric Parking Shade",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a282027045f-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a282027045f-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a282027045f-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a282027045f-gallery-thumb-big.jpg"
   },
   {
     id: "proj3",
     title: "Steel Frame Parking Shade Structure",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a282e5c97f2-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a282e5c97f2-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a282e5c97f2-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a282e5c97f2-gallery-thumb-big.jpg"
   },
   {
     id: "proj4",
     title: "Wall Mounted Fabric Parking Shade",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28337c80f3-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28337c80f3-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a28337c80f3-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a28337c80f3-gallery-thumb-big.jpg"
   },
   {
     id: "proj5",
     title: "Driveway Side Fabric Parking Shade",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28374e9f42-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28374e9f42-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a28374e9f42-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a28374e9f42-gallery-thumb-big.jpg"
   },
   {
     id: "proj6",
     title: "Row Style Parking Shade Structure",
     category: "Parking Shades",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28386a0c13-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a28386a0c13-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a28386a0c13-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a28386a0c13-gallery-thumb-big.jpg"
   },
   {
     id: "proj7",
     title: "Arched Polycarbonate Parking Shade Structure",
     category: "Polycarbonate",
-    image: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a283a40dfd0-gallery-thumb-small.jpg",
-    bigImage: "https://www.futuretensilestructure.com/uploaded-files/gallery/thumbs/gallery_69a283a40dfd0-gallery-thumb-big.jpg"
+    image: "/images/gallery_69a283a40dfd0-gallery-thumb-small.jpg",
+    bigImage: "/images/gallery_69a283a40dfd0-gallery-thumb-big.jpg"
   }
 ];
 
@@ -312,7 +312,7 @@ export const BLOGS_LIST: BlogItem[] = [
     date: "10 February, 2026",
     author: "Future Tensile Team",
     category: "Maintenance & Engineering",
-    image: "https://www.futuretensilestructure.com/uploaded-files/blog/images/thumbs/how-long-does-a-walkway-tensile-structure-last-a-complete-maintenance-guide69a27623a6bc6-blog.jpg",
+    image: "/images/how-long-does-a-walkway-tensile-structure-last-a-complete-maintenance-guide69a27623a6bc6-blog.jpg",
     excerpt: "Walkway tensile structures are an increasingly popular choice for connecting buildings, protecting pedestrians from rain and sun, and adding modern aesthetic value...",
     content: `Walkway tensile structures are engineered for long lifespans, typically lasting between 15 to 30 years depending on the fabric membrane material used (PVC, PVDF, or PTFE). Proper installation and regular maintenance routines are essential to maximize durability.
 
@@ -331,7 +331,7 @@ By keeping tension cables properly adjusted and removing debris regularly, prope
     date: "10 February, 2026",
     author: "Future Tensile Team",
     category: "Resort Architecture",
-    image: "https://www.futuretensilestructure.com/uploaded-files/blog/images/thumbs/are-you-ready-to-upgrade-your-resort-with-a-gazebo-tensile-structure69a275d4555ca-blog.jpg",
+    image: "/images/are-you-ready-to-upgrade-your-resort-with-a-gazebo-tensile-structure69a275d4555ca-blog.jpg",
     excerpt: "Hospitality and resort destinations require outdoor structures that combine weather protection with captivating visual appeal. Learn how tensile gazebos transform guest experiences...",
     content: `In modern hospitality management, outdoor dining and leisure spaces serve as major revenue drivers. Gazebo Tensile Structures deliver column-free open-air dining pavilions that protect guests from sun glares and rain while offering uninterrupted views.
 
@@ -348,7 +348,7 @@ Benefits for Resort Owners:
     date: "10 February, 2026",
     author: "Future Tensile Team",
     category: "Commercial Real Estate",
-    image: "https://www.futuretensilestructure.com/uploaded-files/blog/images/thumbs/how-a-car-parking-tensile-structure-boosts-the-value-of-commercial-properties69a2755d30bfa-blog.jpg",
+    image: "/images/how-a-car-parking-tensile-structure-boosts-the-value-of-commercial-properties69a2755d30bfa-blog.jpg",
     excerpt: "Leaving tenant and visitor vehicles exposed to extreme solar heat damages car interiors and paint. Discover how Tensile Parking Shades add tangible property value...",
     content: `Commercial real estate investors understand that tenant satisfaction begins at the parking lot. Car Parking Tensile Structures protect vehicles against UV thermal breakdown, hail, and tree sap while elevating property curb appeal.
 

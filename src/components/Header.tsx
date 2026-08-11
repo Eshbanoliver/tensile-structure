@@ -13,6 +13,8 @@ import {
 import { COMPANY_INFO, PRODUCTS_LIST } from '../data/websiteData';
 import { FacebookIcon, YoutubeIcon, InstagramIcon } from './SocialIcons';
 
+import logoImg from '../assets/logo.png';
+
 interface HeaderProps {
   onOpenQuoteModal: () => void;
 }
@@ -112,17 +114,13 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
           <div className="flex items-center justify-between">
             
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-3 group">
-              <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-[#00B8D9] to-[#123B63] flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform border border-white/20">
-                <span className="font-poppins font-black text-white text-xl tracking-tighter">FTS</span>
-              </div>
-              <div className="flex flex-col">
-                <span className="font-poppins font-black text-lg text-white leading-tight tracking-wide group-hover:text-[#00B8D9] transition-colors">
-                  FUTURE TENSILE
-                </span>
-                <span className="text-[10px] text-gray-300 font-semibold tracking-wider uppercase">
-                  Structure Pvt. Ltd.
-                </span>
+            <Link to="/" className="flex items-center group">
+              <div className="bg-white/95 backdrop-blur-sm px-2.5 py-1.5 rounded-xl shadow-lg border border-white/30 group-hover:scale-105 transition-transform flex items-center justify-center">
+                <img 
+                  src={logoImg} 
+                  alt={COMPANY_INFO.name} 
+                  className="h-9 sm:h-11 w-auto object-contain" 
+                />
               </div>
             </Link>
 

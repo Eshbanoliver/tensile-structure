@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { COMPANY_INFO, PRODUCTS_LIST } from '../data/websiteData';
 import { FacebookIcon, YoutubeIcon, InstagramIcon } from './SocialIcons';
+import logoImg from '../assets/logo.png';
 
 export const Footer: React.FC = () => {
   const [emailSub, setEmailSub] = useState('');
@@ -127,17 +128,13 @@ export const Footer: React.FC = () => {
           
           {/* Column 1: Company Profile & Socials */}
           <div className="lg:col-span-3 space-y-4">
-            <Link to="/" className="flex items-center space-x-3 group">
-              <div className="w-11 h-11 rounded-xl bg-[#0B1F35] flex items-center justify-center shadow-md border border-gray-200">
-                <span className="font-poppins font-black text-[#00B8D9] text-lg">FTS</span>
-              </div>
-              <div>
-                <span className="font-poppins font-black text-base text-[#0B1F35] block leading-none group-hover:text-[#00B8D9] transition-colors">
-                  FUTURE TENSILE
-                </span>
-                <span className="text-[9px] text-gray-500 font-bold tracking-wider uppercase">
-                  Structure Pvt. Ltd.
-                </span>
+            <Link to="/" className="inline-block group">
+              <div className="bg-white px-2.5 py-1.5 rounded-xl shadow-md border border-gray-200 group-hover:scale-105 transition-transform inline-flex items-center justify-center">
+                <img 
+                  src={logoImg} 
+                  alt={COMPANY_INFO.name} 
+                  className="h-10 sm:h-12 w-auto object-contain" 
+                />
               </div>
             </Link>
 
