@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Deployment credentials & env secrets
+deploy-credentials.json
+deploy-credentials*
+*.credentials
+.env
+.env.*
+
