@@ -31,6 +31,15 @@ export const SEO: React.FC<SEOProps> = ({
       document.head.appendChild(metaKeywords);
     }
     metaKeywords.setAttribute('content', keywords);
+
+    // Update Theme Color to Primary (#0B1F35)
+    let metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (!metaThemeColor) {
+      metaThemeColor = document.createElement('meta');
+      metaThemeColor.setAttribute('name', 'theme-color');
+      document.head.appendChild(metaThemeColor);
+    }
+    metaThemeColor.setAttribute('content', '#0B1F35');
   }, [title, description, keywords]);
 
   return null;
