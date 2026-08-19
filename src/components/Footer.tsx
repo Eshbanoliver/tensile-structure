@@ -294,7 +294,11 @@ export const Footer: React.FC = () => {
         {/* 4. BOTTOM LIGHT COPYRIGHT BAR */}
         <div className="pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-gray-500 font-medium">
           <p>
-            ©️ Copyright 2026 | Future Tensile Structure Pvt. Ltd. | All Rights Reserved | Powered by{' '}
+            ©️ Copyright 2026 |{' '}
+            <Link to="/" className="hover:text-[#00B8D9] transition-colors font-semibold">
+              Future Tensile Structure Pvt. Ltd.
+            </Link>{' '}
+            | All Rights Reserved | Powered by{' '}
             <a 
               href="https://www.futurexdigitalmarketing.com/" 
               target="_blank" 
