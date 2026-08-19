@@ -115,7 +115,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuoteModal }) => {
             
             {/* Logo */}
             <Link to="/" className="flex items-center group">
-              <div className="bg-black/60 backdrop-blur-sm px-2 py-1 rounded-xl shadow-lg border border-amber-400/20 group-hover:scale-105 transition-transform flex items-center justify-center">
+              <div className="bg-white px-2.5 py-1 rounded-xl shadow-lg border border-white/50 group-hover:scale-105 transition-transform flex items-center justify-center">
                 <img 
                   src={logoImg} 
                   alt={COMPANY_INFO.name} 

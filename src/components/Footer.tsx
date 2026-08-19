@@ -129,7 +129,7 @@ export const Footer: React.FC = () => {
           {/* Column 1: Company Profile & Socials */}
           <div className="lg:col-span-3 space-y-4">
             <Link to="/" className="inline-block group">
-              <div className="bg-[#061322] px-2.5 py-1.5 rounded-xl shadow-md border border-gray-800 group-hover:scale-105 transition-transform inline-flex items-center justify-center">
+              <div className="bg-white px-3 py-1.5 rounded-xl shadow-md border border-gray-200 group-hover:scale-105 transition-transform inline-flex items-center justify-center">
                 <img 
                   src={logoImg} 
                   alt={COMPANY_INFO.name} 
