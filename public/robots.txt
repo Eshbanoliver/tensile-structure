@@ -1,4 +1,42 @@
+# ==============================================================================
+# Robots.txt for Tensile Structure Web Application
+# Sitemap: https://futuretensilestructure.com/sitemap.xml
+# ==============================================================================
+
+# Allow all web crawlers and search engine bots
 User-agent: *
 Allow: /
+Allow: /images/
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
 
+# Disallow indexing of private or administrative directories
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /*?*query=
+
+# Crawl-delay for optimal server performance
+Crawl-delay: 1
+
+# Search Engine Specific User-Agents
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap Directive
 Sitemap: https://futuretensilestructure.com/sitemap.xml
