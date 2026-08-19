@@ -143,10 +143,12 @@ export const ContactPage: React.FC = () => {
             {/* Google Map Box */}
             <div className="bg-white p-3 rounded-3xl shadow-xl border border-gray-100 overflow-hidden h-72">
               <iframe 
-                title="Office Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3628.273618491845!2d73.7214993!3d24.584809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDM1JzA1LjMiTiA3M8KwNDMnMjUuMyJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                title="Best Tensile Structure Location Map"
+                src={COMPANY_INFO.mapEmbedUrl}
                 className="w-full h-full rounded-2xl border-0"
                 loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
               />
             </div>
           </div>

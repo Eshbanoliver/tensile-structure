@@ -52,6 +52,7 @@ export const COMPANY_INFO = {
   email: "info@futuretensilestructure.com",
   hours: "Monday To Saturday, 9.00 AM - 6.00 PM",
   experienceYears: "16+",
+  mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.8478194542745!2d72.5121638!3d22.9926229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b44e28ba9b7%3A0x5fb01a56bd5f4ffb!2sBest%20Tensile%20Structure!5e0!3m2!1sen!2sin!4v1787130519310!5m2!1sen!2sin",
   socials: {
     facebook: "https://www.facebook.com/p/Future-Tensile-Structure-61562439236794/",
     youtube: "https://www.youtube.com/@futuretensilestructure",
