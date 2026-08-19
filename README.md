@@ -1,6 +1,6 @@
-# 🏗️ Future Tensile Structure
+# 🏗️ Tensile Structure Web Application
 
-A modern, high-performance web application built for **Future Tensile Structure** — presenting premium architectural tensile structures, car parking sheds, walkways, gazebo structures, courtyard covers, and custom fabric architecture solutions.
+A modern, high-performance web application built for showcasing architectural tensile structures, car parking shades, walkways, gazebo structures, courtyard covers, and custom fabric architecture solutions.
 
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0-blue?logo=typescript)
@@ -11,13 +11,13 @@ A modern, high-performance web application built for **Future Tensile Structure*
 
 ## 🌟 Key Features
 
-- **🏛️ Comprehensive Product Catalog**: Explore tensile membrane structures, car parking canopies, entrance structures, gazebos, stadium roofs, and custom architectural solutions.
+- **🏛️ Comprehensive Product Catalog**: Showcase tensile membrane structures, car parking canopies, entrance structures, gazebos, stadium roofs, and custom architectural solutions.
 - **🖼️ Project Portfolio Showcase**: High-resolution gallery featuring completed commercial, residential, and industrial installations.
 - **📖 Dynamic Blog & Insights**: Architectural tensile design trends, fabric engineering, maintenance guides, and case studies.
 - **📬 Interactive Contact & Inquiry System**: Custom inquiry forms for instant project estimates and consultations.
 - **⚡ Ultra Fast & Responsive**: Built with Vite 8 and React 19, powered by Tailwind CSS v4 for flawless mobile, tablet, and desktop responsiveness.
 - **✨ Smooth Motion & Micro-animations**: Fluid transitions and interactive visual effects using Framer Motion and Swiper.
-- **🔍 SEO & Meta Optimization**: Configured with `react-helmet-async` for optimized dynamic meta titles, descriptions, and structural indexing.
+- **🔍 SEO & Meta Optimization**: Configured with dynamic meta titles, descriptions, and structural indexing.
 - **🗺️ Interactive Sitemap**: Full architectural navigation layout for easy site exploration.
 
 ---
@@ -32,7 +32,6 @@ A modern, high-performance web application built for **Future Tensile Structure*
 - **Carousel / Sliders**: [Swiper](https://swiperjs.com/)
 - **Routing**: [React Router v7](https://reactrouter.com/)
 - **SEO & Head Management**: [React Helmet Async](https://github.com/staylor/react-helmet-async)
-- **Counters**: React CountUp
 
 ---
 
@@ -44,7 +43,7 @@ tensile/
 ├── src/
 │   ├── assets/          # Project assets (images, logos, SVGs)
 │   ├── components/      # Reusable UI components (Header, Footer, Navbar, Cards, Modals)
-│   ├── data/            # Mock & structured data for products, projects, blogs
+│   ├── data/            # Structured data for products, projects, blogs
 │   ├── layouts/         # Layout wrapper components
 │   ├── pages/           # Page components (Home, About, Products, ProductDetail, Projects, Blogs, Contact, Sitemap)
 │   ├── sections/        # Section-specific components (Hero, Features, Testimonials, FAQ)
@@ -115,4 +114,4 @@ The output files will be created in the `dist/` directory, ready to be hosted on
 
 ## 📄 License
 
-This project is proprietary and built for Future Tensile Structure. All rights reserved.
+MIT License. Free for open source use and modification.
