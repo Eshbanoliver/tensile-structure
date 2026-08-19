@@ -1,6 +1,6 @@
 # ==============================================================================
 # Robots.txt for Tensile Structure Web Application
-# Sitemap: https://futuretensilestructure.com/sitemap.xml
+# Sitemap: https://besttensilestructure.com/sitemap.xml
 # ==============================================================================
 
 # Allow all web crawlers and search engine bots
@@ -39,4 +39,4 @@ User-agent: DuckDuckBot
 Allow: /
 
 # Sitemap Directive
-Sitemap: https://futuretensilestructure.com/sitemap.xml
+Sitemap: https://besttensilestructure.com/sitemap.xml

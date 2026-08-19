@@ -143,9 +143,9 @@ export const AboutPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#F8FAFC] pt-24 lg:pt-32 pb-20 overflow-hidden">
       <SEO 
-        title="About Us | Top Tensile Structure Manufacturers in Udaipur - Future Tensile Structure"
-        description="Discover Future Tensile Structure Pvt. Ltd., Udaipur's premier manufacturer of architectural tensile membrane structures, car parking shades, gazebos, and wide-span canopies since 2010."
-        keywords="Tensile Structure Manufacturer Udaipur, About Future Tensile Structure, Architectural Membrane Roofing, Tensile Shade Fabrication Rajasthan, In-House Tensile Factory Udaipur"
+        title="About Us | Top Tensile Structure Manufacturers in Udaipur - Best Tensile Structure"
+        description="Discover Best Tensile Structure Pvt. Ltd., Udaipur's premier manufacturer of architectural tensile membrane structures, car parking shades, gazebos, and wide-span canopies since 2010."
+        keywords="Tensile Structure Manufacturer Udaipur, About Best Tensile Structure, Architectural Membrane Roofing, Tensile Shade Fabrication Rajasthan, In-House Tensile Factory Udaipur"
       />
 
       {/* Hero Banner with Animated Ambient Glow Blobs */}
@@ -178,7 +178,7 @@ export const AboutPage: React.FC = () => {
               </motion.h1>
               
               <motion.p variants={fadeInUp} className="text-gray-300 text-sm sm:text-base leading-relaxed max-w-2xl">
-                Future Tensile Structure Pvt. Ltd. is Udaipur's premier manufacturer and contractor of architectural tensile membranes, gazebos, car parking shades, walkway canopies, and custom commercial roofing solutions across India.
+                Best Tensile Structure Pvt. Ltd. is Udaipur's premier manufacturer and contractor of architectural tensile membranes, gazebos, car parking shades, walkway canopies, and custom commercial roofing solutions across India.
               </motion.p>
 
               {/* Quick Hero Feature Tags */}
@@ -212,7 +212,7 @@ export const AboutPage: React.FC = () => {
                       <Building2 className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-poppins font-bold text-sm text-white">Future Tensile HQ</h4>
+                      <h4 className="font-poppins font-bold text-sm text-white">Best Tensile HQ</h4>
                       <p className="text-[11px] text-gray-400">Udaipur Manufacturing Hub</p>
                     </div>
                   </div>
@@ -305,7 +305,7 @@ export const AboutPage: React.FC = () => {
             </div>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-              Welcome to <strong className="text-[#0B1F35]">Future Tensile Structure Pvt. Ltd.</strong>, where we don't just build roofs; we craft the skyline of your property. For over 16 years, our team has been the quiet force transforming ordinary open spaces into functional, architectural art across Rajasthan and all over India.
+              Welcome to <strong className="text-[#0B1F35]">Best Tensile Structure Pvt. Ltd.</strong>, where we don't just build roofs; we craft the skyline of your property. For over 16 years, our team has been the quiet force transforming ordinary open spaces into functional, architectural art across Rajasthan and all over India.
             </p>
 
             <p className="text-gray-600 text-sm leading-relaxed">
@@ -347,7 +347,7 @@ export const AboutPage: React.FC = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
               <img 
                 src="/images/Home-thumbs-440X440.jpg" 
-                alt="About Future Tensile Structure Workshop"
+                alt="About Best Tensile Structure Workshop"
                 className="w-full h-[480px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               

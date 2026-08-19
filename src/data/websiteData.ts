@@ -40,8 +40,8 @@ export interface BlogItem {
 }
 
 export const COMPANY_INFO = {
-  name: "Future Tensile Structure Pvt. Ltd.",
-  shortName: "Future Tensile Structure",
+  name: "Best Tensile Structure Pvt. Ltd.",
+  shortName: "Best Tensile Structure",
   tagline: "Top Tensile Structure Manufacturers in Udaipur",
   address: "2nd Floor, Madaar Plaza, Thokar Chouraha Ayad Road, Udaipur – 313001, Rajasthan, India",
   phones: [
@@ -49,14 +49,14 @@ export const COMPANY_INFO = {
     { display: "+91-905-791-1777", raw: "+919057911777" }
   ],
   whatsapp: "+919887889777",
-  email: "info@futuretensilestructure.com",
+  email: "info@besttensilestructure.com",
   hours: "Monday To Saturday, 9.00 AM - 6.00 PM",
   experienceYears: "16+",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.8478194542745!2d72.5121638!3d22.9926229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b44e28ba9b7%3A0x5fb01a56bd5f4ffb!2sBest%20Tensile%20Structure!5e0!3m2!1sen!2sin!4v1787130519310!5m2!1sen!2sin",
   socials: {
     facebook: "https://www.facebook.com/p/Future-Tensile-Structure-61562439236794/",
-    youtube: "https://www.youtube.com/@futuretensilestructure",
-    instagram: "https://www.instagram.com/futuretensilestructurepvt.ltd"
+    youtube: "https://www.youtube.com/@besttensilestructure",
+    instagram: "https://www.instagram.com/besttensilestructurepvt.ltd"
   }
 };
 
@@ -90,8 +90,8 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "tensile-structure",
     name: "Tensile Structure",
     category: "Tensile Structure",
-    shortDesc: "Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Future Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur...",
-    fullDesc: "Future Tensile Structure Pvt. Ltd. offers premium tensile structure solutions designed for durability, flexibility, and modern architectural appeal. Ideal for car parking, walkways, commercial spaces, and outdoor areas, these structures are made using high-quality fabric and strong frameworks for long-lasting performance and weather resistance.",
+    shortDesc: "Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Best Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur...",
+    fullDesc: "Best Tensile Structure Pvt. Ltd. offers premium tensile structure solutions designed for durability, flexibility, and modern architectural appeal. Ideal for car parking, walkways, commercial spaces, and outdoor areas, these structures are made using high-quality fabric and strong frameworks for long-lasting performance and weather resistance.",
     image: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg",
     thumb: "/images/Tensile-Structure69aaa01f5b612-home-thumb-big.jpg"
   },
@@ -100,7 +100,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "car-parking-tensile-structure",
     name: "Car Parking Tensile Structure",
     category: "Parking Shades",
-    shortDesc: "Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Future Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur...",
+    shortDesc: "Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Best Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur...",
     fullDesc: "Protect your vehicles with state-of-the-art Car Parking Tensile Structures. Engineered with UV-resistant fabric and high-strength galvanized steel frames, our parking shades safeguard against extreme sun, hail, rain, and debris while adding modern elegance to commercial hubs and residential properties.",
     image: "/images/Car-Parking-Tensile-Structure69aa88f715548-home-thumb-big.jpg",
     thumb: "/images/Car-Parking-Tensile-Structure-small.jpg"
@@ -110,7 +110,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "garden-tensile-umbrella",
     name: "Garden Tensile Umbrella",
     category: "Outdoor Leisure",
-    shortDesc: "Revamping an exposed patio or a sun-drenched lawn demands a smart, elegant solution. Traditional fabric parasols snap in the wind and fade rapidly, leaving your outdoor seating area looking neglected. At Future Tensile Structure Pvt. Ltd., we engineer stunning...",
+    shortDesc: "Revamping an exposed patio or a sun-drenched lawn demands a smart, elegant solution. Traditional fabric parasols snap in the wind and fade rapidly, leaving your outdoor seating area looking neglected. At Best Tensile Structure Pvt. Ltd., we engineer stunning...",
     fullDesc: "Our heavy-duty Garden Tensile Umbrellas combine sleek aesthetic design with rugged structural resilience. Designed to withstand wind forces while providing 100% shade and waterproof protection for gardens, resorts, and outdoor cafes.",
     image: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg",
     thumb: "/images/Garden-Tensile-Umbrella69aa88d1c2f34-home-thumb-big.jpg"
@@ -150,7 +150,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "outdoor-tensile-structure",
     name: "Outdoor Tensile Structure",
     category: "Outdoor Leisure",
-    shortDesc: "Future Tensile Structure Pvt. Ltd. transforms completely bare and unusable exterior zones into stunning, all-weather lounges...",
+    shortDesc: "Best Tensile Structure Pvt. Ltd. transforms completely bare and unusable exterior zones into stunning, all-weather lounges...",
     fullDesc: "Turn outdoor courtyards, terraces, and open lawns into comfortable year-round environments with customized outdoor tensile shade solutions engineered for maximum longevity.",
     image: "/images/Outdoor-Tensile-Structure-large.jpg",
     thumb: "/images/Outdoor-Tensile-Structure-large.jpg"
@@ -160,7 +160,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "industrial-tensile-shed",
     name: "Industrial Tensile Shed",
     category: "Industrial Sheds",
-    shortDesc: "Future Tensile Structure Pvt. Ltd. understands that expanding your factory or warehouse operations shouldn't require waiting months...",
+    shortDesc: "Best Tensile Structure Pvt. Ltd. understands that expanding your factory or warehouse operations shouldn't require waiting months...",
     fullDesc: "Rapid-deploy industrial fabric sheds ideal for manufacturing units, warehouse inventory storage, and temporary logistics bays requiring high clearance and wide pillar-free spans.",
     image: "/images/Industrial-Tensile-Shed-large.jpg",
     thumb: "/images/Industrial-Tensile-Shed-large.jpg"
@@ -170,7 +170,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "terrace-tensile-shed",
     name: "Terrace Tensile Shed",
     category: "Roofing Sheds",
-    shortDesc: "Future Tensile Structure Pvt. Ltd. brings an extraordinary transformation to unused rooftops. Leaving your top floor completely bare...",
+    shortDesc: "Best Tensile Structure Pvt. Ltd. brings an extraordinary transformation to unused rooftops. Leaving your top floor completely bare...",
     fullDesc: "Convert unutilized terrace rooftops into elegant lounge spaces, open-air cafes, or private gardens protected from heat, UV exposure, and heavy rains.",
     image: "/images/Terrace-Tensile-Shed-large.jpg",
     thumb: "/images/Terrace-Tensile-Shed-large.jpg"
@@ -180,7 +180,7 @@ export const PRODUCTS_LIST: ProductItem[] = [
     slug: "tensile-pagoda-tent",
     name: "Tensile Pagoda Tent",
     category: "Tents & Canopies",
-    shortDesc: "Future Tensile Structure Pvt. Ltd. designs premium modular canopies that elevate any outdoor gathering instantly...",
+    shortDesc: "Best Tensile Structure Pvt. Ltd. designs premium modular canopies that elevate any outdoor gathering instantly...",
     fullDesc: "Distinctive high-peak Pagoda Tensile Tents designed for luxury events, resort outdoor pavilions, and VIP exhibition spaces.",
     image: "/images/Tensile-Pagoda-Tent-large.jpg",
     thumb: "/images/Tensile-Pagoda-Tent-large.jpg"
@@ -311,7 +311,7 @@ export const BLOGS_LIST: BlogItem[] = [
     slug: "how-long-does-a-walkway-tensile-structure-last-a-complete-maintenance-guide",
     title: "How Long Does A Walkway Tensile Structure Last? A Complete Maintenance Guide",
     date: "10 February, 2026",
-    author: "Future Tensile Team",
+    author: "Best Tensile Team",
     category: "Maintenance & Engineering",
     image: "/images/how-long-does-a-walkway-tensile-structure-last-a-complete-maintenance-guide69a27623a6bc6-blog.jpg",
     excerpt: "Walkway tensile structures are an increasingly popular choice for connecting buildings, protecting pedestrians from rain and sun, and adding modern aesthetic value...",
@@ -330,7 +330,7 @@ By keeping tension cables properly adjusted and removing debris regularly, prope
     slug: "are-you-ready-to-upgrade-your-resort-with-a-gazebo-tensile-structure",
     title: "Are You Ready To Upgrade Your Resort With A Gazebo Tensile Structure?",
     date: "10 February, 2026",
-    author: "Future Tensile Team",
+    author: "Best Tensile Team",
     category: "Resort Architecture",
     image: "/images/are-you-ready-to-upgrade-your-resort-with-a-gazebo-tensile-structure69a275d4555ca-blog.jpg",
     excerpt: "Hospitality and resort destinations require outdoor structures that combine weather protection with captivating visual appeal. Learn how tensile gazebos transform guest experiences...",
@@ -347,7 +347,7 @@ Benefits for Resort Owners:
     slug: "how-a-car-parking-tensile-structure-boosts-the-value-of-commercial-properties",
     title: "How A Car Parking Tensile Structure Boosts The Value Of Commercial Properties?",
     date: "10 February, 2026",
-    author: "Future Tensile Team",
+    author: "Best Tensile Team",
     category: "Commercial Real Estate",
     image: "/images/how-a-car-parking-tensile-structure-boosts-the-value-of-commercial-properties69a2755d30bfa-blog.jpg",
     excerpt: "Leaving tenant and visitor vehicles exposed to extreme solar heat damages car interiors and paint. Discover how Tensile Parking Shades add tangible property value...",

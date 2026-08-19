@@ -25,7 +25,7 @@ export const ProjectsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
-        title="Completed Tensile Structure Projects Gallery | Future Tensile Structure Udaipur"
+        title="Completed Tensile Structure Projects Gallery | Best Tensile Structure Udaipur"
         description="View our portfolio of architectural tensile structures, car parking shade installations, resort gazebos, and commercial entrance canopies installed across India."
         keywords="Tensile Structure Projects, Car Parking Shades Gallery Udaipur, Tensile Roof Installations Rajasthan, Gazebo Tensile Portfolio"
       />
@@ -140,7 +140,7 @@ export const ProjectsPage: React.FC = () => {
             </div>
 
             <div className="flex items-center justify-between text-xs text-gray-400 px-2 pt-1">
-              <span>Future Tensile Structure Pvt. Ltd. Portfolio</span>
+              <span>Best Tensile Structure Pvt. Ltd. Portfolio</span>
               <button
                 onClick={() => {
                   setActiveImage(null);

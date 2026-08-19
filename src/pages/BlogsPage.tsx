@@ -21,9 +21,9 @@ export const BlogsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
-        title="Tensile Structure Maintenance & Design Guides | Blogs - Future Tensile Structure"
+        title="Tensile Structure Maintenance & Design Guides | Blogs - Best Tensile Structure"
         description="Expert articles and technical guides on tensile membrane structure maintenance, gazebo shade design, resort roofing upgrades, and architectural fabric care."
-        keywords="Tensile Structure Maintenance Guide, Tensile Shade Blogs, Architectural Membrane Guide Rajasthan, Future Tensile Articles"
+        keywords="Tensile Structure Maintenance Guide, Tensile Shade Blogs, Architectural Membrane Guide Rajasthan, Best Tensile Articles"
       />
 
       {/* Header Banner */}

@@ -48,9 +48,9 @@ export const ContactPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
-        title="Contact Us | Future Tensile Structure Manufacturers in Udaipur, Rajasthan"
-        description="Get in touch with Future Tensile Structure Pvt. Ltd. Udaipur. Call +91-988-788-9777 for site measurement estimates, factory pricing, and structural design drawings."
-        keywords="Contact Tensile Structure Manufacturer, Tensile Shade Office Udaipur, Contact Future Tensile, Tensile Roofing Quote Rajasthan"
+        title="Contact Us | Best Tensile Structure Manufacturers in Udaipur, Rajasthan"
+        description="Get in touch with Best Tensile Structure Pvt. Ltd. Udaipur. Call +91-988-788-9777 for site measurement estimates, factory pricing, and structural design drawings."
+        keywords="Contact Tensile Structure Manufacturer, Tensile Shade Office Udaipur, Contact Best Tensile, Tensile Roofing Quote Rajasthan"
       />
 
       {/* Header Banner */}
@@ -65,7 +65,7 @@ export const ContactPage: React.FC = () => {
               <span>Connect With Our Site Engineers</span>
             </span>
             <h1 className="font-poppins font-extrabold text-3xl sm:text-5xl text-white">
-              Contact Future Tensile Structure
+              Contact Best Tensile Structure
             </h1>
             <p className="text-gray-300 text-sm leading-relaxed">
               Reach out for site measurements, structural design consultations, factory pricing, and nationwide turnkey execution assistance.

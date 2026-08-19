@@ -22,7 +22,7 @@ export const CategoriesSection: React.FC = () => {
           <div className="space-y-4">
             <h3 className="font-poppins font-bold text-2xl text-[#0B1F35]">Tensile Structure</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Future Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur that stretch across large areas without column obstruction...
+              Tired of dull concrete slabs boxing in your beautiful open spaces? Modern architecture demands smart, flexible shading that breathes life into any environment. At Best Tensile Structure Pvt. Ltd., we make dynamic Tensile Structure in Udaipur that stretch across large areas without column obstruction...
             </p>
             <Link 
               to="/tensile-structure.htm"
@@ -38,7 +38,7 @@ export const CategoriesSection: React.FC = () => {
           <div className="order-last lg:order-first space-y-4">
             <h3 className="font-poppins font-bold text-2xl text-[#0B1F35]">Car Parking Tensile Structure</h3>
             <p className="text-gray-600 text-sm leading-relaxed">
-              Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Future Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur that protect your vehicles from harsh weather...
+              Leaving cars out in the open sun is a bad idea. Rain, heat, and dust ruin expensive paint jobs faster than you might think. You need a real shield. At Best Tensile Structure Pvt. Ltd., we provide premium Car Parking Tensile Structure in Udaipur that protect your vehicles from harsh weather...
             </p>
             <Link 
               to="/car-parking-tensile-structure.htm"

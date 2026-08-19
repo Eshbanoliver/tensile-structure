@@ -8,7 +8,7 @@ interface SEOProps {
 
 export const SEO: React.FC<SEOProps> = ({ 
   title = "Top Tensile Structure Manufacturers in Udaipur, Commercial Gazebo Tensile Structure Suppliers in Rajasthan",
-  description = "Future Tensile Structure Pvt. Ltd. Top Tensile Structure Manufacturers in Udaipur, since 2010. Premium Quality Commercial Gazebo Tensile Structure Suppliers in Rajasthan.",
+  description = "Best Tensile Structure Pvt. Ltd. Top Tensile Structure Manufacturers in Udaipur, since 2010. Premium Quality Commercial Gazebo Tensile Structure Suppliers in Rajasthan.",
   keywords = "Top Tensile Structure Manufacturers, Commercial Gazebo Tensile Structure Suppliers, Top Tensile Structure Suppliers, Commercial Gazebo Tensile Structure Manufacturers in Udaipur"
 }) => {
   useEffect(() => {

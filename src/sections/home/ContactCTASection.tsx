@@ -40,7 +40,7 @@ export const ContactCTASection: React.FC<ContactCTASectionProps> = ({ onOpenQuot
               Ready to Transform Your <span className="text-[#00B8D9]">Outdoor Space?</span>
             </h2>
             <p className="text-gray-200 text-xs sm:text-base max-w-2xl mx-auto leading-relaxed">
-              Get in touch with Future Tensile Structure Pvt. Ltd. for custom CAD architectural drawings, free site measurement, and unbeatable factory prices across Udaipur & Pan-India.
+              Get in touch with Best Tensile Structure Pvt. Ltd. for custom CAD architectural drawings, free site measurement, and unbeatable factory prices across Udaipur & Pan-India.
             </p>
           </div>
 

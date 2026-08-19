@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
             </Link>
 
             <p className="text-xs text-gray-600 leading-relaxed">
-              Future Tensile Structure Pvt. Ltd. is a premier manufacturer and supplier of top tensile structure solutions based in Udaipur, Rajasthan. Transforming commercial and architectural spaces since 2010.
+              Best Tensile Structure Pvt. Ltd. is a premier manufacturer and supplier of top tensile structure solutions based in Udaipur, Rajasthan. Transforming commercial and architectural spaces since 2010.
             </p>
 
             <div className="pt-2">
@@ -296,7 +296,7 @@ export const Footer: React.FC = () => {
           <p>
             ©️ Copyright 2026 |{' '}
             <Link to="/" className="hover:text-[#00B8D9] transition-colors font-semibold">
-              Future Tensile Structure Pvt. Ltd.
+              Best Tensile Structure Pvt. Ltd.
             </Link>{' '}
             | All Rights Reserved | Powered by{' '}
             <a 

@@ -94,7 +94,7 @@ export const WhyChooseUsSection: React.FC = () => {
             <span>Why Choose Us</span>
           </span>
           <h2 className="font-poppins font-black text-3xl sm:text-5xl text-white">
-            Why Future Tensile Structure Is Your Top Choice
+            Why Best Tensile Structure Is Your Top Choice
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#00B8D9] via-[#FFB703] to-[#d946ef] mx-auto rounded-full" />
           <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">

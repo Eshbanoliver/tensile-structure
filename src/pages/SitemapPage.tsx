@@ -33,8 +33,8 @@ export const SitemapPage: React.FC = () => {
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
         title="Website Sitemap | Index of Tensile Structure Pages & Products"
-        description="Comprehensive index of all web pages, 31 tensile membrane products, and engineering blogs of Future Tensile Structure Pvt. Ltd. Udaipur."
-        keywords="Tensile Structure Sitemap, Website Index, Tensile Products List Udaipur, Future Tensile Pages"
+        description="Comprehensive index of all web pages, 31 tensile membrane products, and engineering blogs of Best Tensile Structure Pvt. Ltd. Udaipur."
+        keywords="Tensile Structure Sitemap, Website Index, Tensile Products List Udaipur, Best Tensile Pages"
       />
 
       {/* Header Banner */}

@@ -21,8 +21,8 @@ export const ProductDetailPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
-        title={`${product.name} Manufacturers in Udaipur, Rajasthan | Future Tensile Structure`}
-        description={`Get factory price for ${product.name}. High tensile membrane strength, 100% waterproof, wind load certified by Future Tensile Structure Pvt. Ltd.`}
+        title={`${product.name} Manufacturers in Udaipur, Rajasthan | Best Tensile Structure`}
+        description={`Get factory price for ${product.name}. High tensile membrane strength, 100% waterproof, wind load certified by Best Tensile Structure Pvt. Ltd.`}
         keywords={`${product.name}, ${product.category} Udaipur, Tensile Structure Manufacturer, Commercial Gazebo Rajasthan`}
       />
 
@@ -84,7 +84,7 @@ export const ProductDetailPage: React.FC = () => {
                   Product Overview & Details
                 </h2>
                 <p className="text-xs text-accent font-semibold mt-1">
-                  Engineered & Fabricated by Future Tensile Structure Pvt. Ltd.
+                  Engineered & Fabricated by Best Tensile Structure Pvt. Ltd.
                 </p>
               </div>
 
@@ -207,7 +207,7 @@ export const ProductDetailPage: React.FC = () => {
             <div className="bg-white p-6 rounded-3xl shadow-xl border border-gray-100 space-y-4">
               <h4 className="font-poppins font-bold text-sm text-primary uppercase tracking-wider flex items-center space-x-2">
                 <ShieldCheck className="w-4 h-4 text-accent" />
-                <span>Why Buy From Future Tensile?</span>
+                <span>Why Buy From Best Tensile?</span>
               </h4>
 
               <ul className="space-y-3 text-xs text-gray-600">

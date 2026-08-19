@@ -33,7 +33,7 @@ export const AboutSection: React.FC = () => {
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-[#00B8D9] flex items-center space-x-2">
                 <span className="w-8 h-0.5 bg-[#00B8D9]" />
-                <span>About Future Tensile Structure</span>
+                <span>About Best Tensile Structure</span>
               </span>
               <h2 className="font-poppins font-extrabold text-2xl sm:text-4xl text-[#0B1F35] mt-2 leading-tight">
                 Top Tensile Structure <span className="text-[#00B8D9]">in Udaipur</span>
@@ -41,7 +41,7 @@ export const AboutSection: React.FC = () => {
             </div>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-              Welcome to Future Tensile Structure Pvt. Ltd., where we don't just build roofs; we craft the skyline of your property. For over a decade, our team has been the quiet force transforming ordinary open spaces into functional, architectural art. We are dedicated to creating environments that blend safety, comfort, and modern style seamlessly. Our <strong>Top Tensile Structure in Udaipur</strong> are built to support the needs of homes, businesses, and public spaces alike.
+              Welcome to Best Tensile Structure Pvt. Ltd., where we don't just build roofs; we craft the skyline of your property. For over a decade, our team has been the quiet force transforming ordinary open spaces into functional, architectural art. We are dedicated to creating environments that blend safety, comfort, and modern style seamlessly. Our <strong>Top Tensile Structure in Udaipur</strong> are built to support the needs of homes, businesses, and public spaces alike.
             </p>
 
             <h3 className="font-poppins font-bold text-lg text-[#0B1F35] border-l-4 border-[#00B8D9] pl-3">

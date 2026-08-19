@@ -36,7 +36,7 @@ export const ProductsPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-bgLight pt-24 lg:pt-32 pb-20">
       <SEO 
-        title="Tensile Structure Products Catalog | Car Parking, Gazebos, Canopies - Future Tensile Structure"
+        title="Tensile Structure Products Catalog | Car Parking, Gazebos, Canopies - Best Tensile Structure"
         description="Explore 31+ tensile structure products in Udaipur, Rajasthan. High-strength PVC & PVDF tensile parking shades, entrance canopies, gazebos, and modular membrane roofs."
         keywords="Tensile Structure Catalog, Car Parking Tensile Structure, Tensile Canopy Supplier Udaipur, Resort Tensile Structure Rajasthan"
       />
