@@ -1,0 +1,92 @@
+# Best Tensile Structure Pvt. Ltd.
+
+> Best Tensile Structure Pvt. Ltd. is a premier manufacturer and supplier of modern architectural tensile structures, car parking shades, walkway structures, gazebos, tensile fabric canopies, and custom membrane solutions based in Udaipur, Rajasthan, India.
+
+## Overview
+
+- **Company Name**: Best Tensile Structure Pvt. Ltd.
+- **Tagline**: Top Tensile Structure Manufacturers in Udaipur
+- **Experience**: 16+ Years in Tensile Architectural Engineering & Design
+- **Location**: 2nd Floor, Madaar Plaza, Thokar Chouraha Ayad Road, Udaipur – 313001, Rajasthan, India
+- **Contact**: +91-988-788-9777 | +91-905-791-1777 | info@besttensilestructure.com
+- **Website Repository**: [GitHub Repository](https://github.com/Eshbanoliver/tensile-structure)
+
+## Technical Architecture & Tech Stack
+
+This project is a high-performance single-page web application built with a modern frontend tech stack:
+
+- **Framework**: React 19 + TypeScript 6.0
+- **Build Tool**: Vite 8.1
+- **Styling**: Tailwind CSS v4 + PostCSS
+- **Animations & Effects**: Framer Motion, Swiper (Carousels), React CountUp
+- **Icons**: Lucide React
+- **Routing**: React Router v7 (with HTML fallback routes like `/about-us.htm`, `/contact-us.htm` for legacy SEO compatibility)
+- **SEO & Meta**: React Helmet Async + Dynamic Open Graph Meta Tags
+- **Linter**: Oxlint
+
+## Main Website Pages & Routes
+
+- [Home Page](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/HomePage.tsx): Main landing showcase featuring hero sliders, featured products, company stats, and interactive CTA.
+- [About Us](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/AboutPage.tsx): Mission, vision, core values, 16+ years history, and manufacturing capabilities.
+- [Products Catalog](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/ProductsPage.tsx): Complete product listing across categories (Parking Shades, Walkway Canopies, Gazebos, PTFE Membranes, Luxury Tents).
+- [Product Detail Page](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/ProductDetailPage.tsx): Dynamic route (`/:slug`) rendering product specifications, applications, key features, and instant inquiry forms.
+- [Project Gallery](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/ProjectsPage.tsx): Showcase of completed installations and engineering projects.
+- [Blog & Articles](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/BlogsPage.tsx): Architectural guides, maintenance tips, and commercial real estate insights.
+- [Contact & Inquiry](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/ContactPage.tsx): Direct contact forms, phone numbers, email details, and embedded Google Maps.
+- [Sitemap](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/pages/SitemapPage.tsx): Comprehensive site navigation map.
+
+## Product Portfolio & Architectural Solutions
+
+The application details 31 specialized architectural tensile product lines defined in [websiteData.ts](https://github.com/Eshbanoliver/tensile-structure/blob/main/src/data/websiteData.ts):
+
+1. **Car Parking Tensile Structure**: UV-resistant and weather-hardened vehicle parking shades for commercial & residential complexes.
+2. **Walkway Tensile Structure**: Covered pedestrian shade corridors for hospitals, universities, and corporate parks.
+3. **Garden Tensile Umbrella**: Heavy-duty architectural shade parasols for outdoor lawns, cafes, and resorts.
+4. **Tensile Fabric Structure**: Column-free wide-span PVDF/PTFE architectural fabric solutions.
+5. **Tensile Membrane Structure**: Weather-resistant membrane systems for public venues and auditoriums.
+6. **PTFE Tensile Membrane Structure**: Ultra-durable fluoropolymer coated glass-fiber membranes with 30+ year lifespan.
+7. **Gazebo Tensile Structure**: High-peak outdoor pavilion structures for resorts and event lawns.
+8. **Industrial Tensile Shed**: Rapid-deploy wide-span fabric sheds for warehouses and factories.
+9. **Terrace Tensile Shed**: Rooftop transformation shades for outdoor lounges, dining, and cafes.
+10. **Tensile Pagoda Tent**: High-peak modular tents for VIP events and luxury hospitality.
+11. **Entrance Tensile Structure**: Architectural entry canopies for hotels and corporate office entrances.
+12. **Stadium Tensile Structure**: Turnkey wide-span cable-tensioned stadium roof covers.
+13. **Swimming Pool Tensile Cover**: UV-blocking pool shades for resorts and athletic clubs.
+14. **Royal Resort Tent House**: Insulated luxury glamping tent structures for eco-resorts.
+15. **Reverse & Inverted Umbrella Structures**: Conical tensile shades designed with integrated rainwater harvesting.
+
+## Codebase Directory Structure
+
+```
+tensile/
+├── public/                 # Static public assets (images, icons, robots.txt, sitemap.xml, llm.txt)
+├── src/
+│   ├── assets/             # SVGs, project logos, images
+│   ├── components/         # Reusable UI components (Header, Footer, Navbar, Cards, Modals, ErrorBoundary)
+│   ├── data/               # Centralized data model (websiteData.ts)
+│   ├── layouts/            # MainLayout wrapper
+│   ├── pages/              # Page views (HomePage, ProductsPage, ProductDetailPage, etc.)
+│   ├── sections/           # Modular page sections (Hero, FeaturedProducts, Stats, Testimonials, FAQ)
+│   ├── App.tsx             # React Router v7 configuration & lazy loading setup
+│   ├── main.tsx            # Entry mounting point
+│   └── index.css           # Tailwind v4 directives & custom CSS utilities
+├── llm.txt                 # Structured documentation for LLMs & AI assistants
+├── index.html              # HTML shell & font definitions
+├── package.json            # Project dependencies and script declarations
+├── vite.config.ts          # Vite bundler configuration
+└── tsconfig.json           # TypeScript configuration
+```
+
+## Development & Operations Commands
+
+- `npm run dev`: Start local development server on `http://localhost:5173`.
+- `npm run build`: Compile TypeScript and bundle production build output into `dist/`.
+- `npm run preview`: Serve production build locally for verification.
+- `npm run lint`: Execute Oxlint to check code quality and syntax integrity.
+
+## Contact Information
+
+- **Address**: 2nd Floor, Madaar Plaza, Thokar Chouraha Ayad Road, Udaipur – 313001, Rajasthan, India
+- **Phone**: +91-988-788-9777 / +91-905-791-1777
+- **Email**: info@besttensilestructure.com
+- **WhatsApp**: +91-988-788-9777
